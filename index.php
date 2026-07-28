@@ -4,6 +4,10 @@ session_start();
 
 include 'header.php'; ?>
 
+
+
+
+
     <!-- ==================== Smooth Scroll Wrapper ==================== -->
     <div id="smooth-wrapper">
         <div id="smooth-content">
