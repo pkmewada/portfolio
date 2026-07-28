@@ -765,6 +765,93 @@ $(function () {
     });
 
 
+
+
+
+     $(function () {
+        var width = $(window).width();
+        "use strict";
+
+        if (width > 991) {
+            // --- DESKTOP CODE (Unchanged) ---
+            const fe = gsap.timeline({
+                scrollTrigger: {
+                    trigger: ".features .stack-title",
+                    start: "center center",
+                    endTrigger: ".features",
+                    end: "bottom bottom",
+                    pin: true,
+                    pinSpacing: false,
+                }
+            });
+
+            const ts = gsap.timeline({
+                scrollTrigger: {
+                    trigger: ".testim-cards .stack-title",
+                    start: "center center",
+                    endTrigger: ".testim-cards",
+                    end: "bottom bottom",
+                    pin: true,
+                    pinSpacing: false
+                }
+            });
+
+           
+            let cards = gsap.utils.toArray("#portfolio .stackCard");
+
+            let stickDistance = 0;
+            let firstCardST = ScrollTrigger.create({ trigger: cards[0], start: "center center" });
+            let lastCardST = ScrollTrigger.create({ trigger: cards[cards.length - 1], start: "center center" });
+
+            cards.forEach((card, index) => {
+                var scale = 1 - (cards.length - index) * 0.025;
+                let scaleDown = gsap.to(card, { scale: scale, 'transform-origin': '"50% ' + (lastCardST.start + stickDistance) + '"' });
+
+                ScrollTrigger.create({
+                    trigger: card,
+                    start: "center center",
+                    end: () => lastCardST.start + stickDistance,
+                    pin: true,
+                    pinSpacing: false,
+                    ease: "none",
+                    animation: scaleDown,
+                    toggleActions: "restart none none reverse"
+                    
+                });
+            });
+
+        } else {
+            // --- MOBILE SEQUENCE STACKING (Freezes at 160px offset) ---
+            let cards = gsap.utils.toArray("#portfolio .stackCard");
+            if (cards.length > 0) {
+                let lastCard = cards[cards.length - 1];
+
+                cards.forEach((card, index) => {
+                    // Calculate a subtle scale down for background cards as new ones stack over them
+                    let scaleVal = 1 - (cards.length - index) * 0.03;
+                    let scaleAnim = gsap.to(card, {
+                        scale: index === cards.length - 1 ? 1 : scaleVal,
+                        ease: "none"
+                    });
+
+                    ScrollTrigger.create({
+                        trigger: card,
+                        // Freezes each card exactly when its top hits 160px from the screen viewport top
+                        start: "top 160px",
+                        // Keeps it pinned until the final card reaches the same height marker
+                        end: () => "+=" + (lastCard.offsetTop - card.offsetTop),
+                        pin: true,
+                        pinSpacing: false,
+                        scrub: true,
+                        animation: scaleAnim,
+                        invalidateOnRefresh: true
+                    });
+                });
+            }
+        }
+    });
+
+
     /* =============================================================================
    ------------------------------  Animation   ------------------------------
    ============================================================================= */
