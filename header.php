@@ -53,7 +53,7 @@
     <nav class="navbar navbar-expand-lg">
         <div class="container">
             <a class="logo" href="#">
-                <img src="assets/imgs/logo/logo.webp" alt="Mqlus" class="w-250px">
+                <img src="assets/imgs/logo/logo.webp" alt="Mqlus" class="w-160px">
             </a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">

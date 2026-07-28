@@ -7,6 +7,10 @@ include 'header.php'; ?>
     <div id="smooth-content">
         <main>
 
+        <section></section>
+        
+        <section></section>
+
 
             <section class="work-overview">
 

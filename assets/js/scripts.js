@@ -374,43 +374,32 @@ $(function () {
         }
     });
 
-    var testim3 = new Swiper(".testim-style3 .swiper-container", {
-        slidesPerView: 3,
-        spaceBetween: 30,
-        speed: 2000, // smooth movement
-        loop: true,
-        freeMode: true,
-        freeModeMomentum: false,
-        freeModeMomentumBounce: false,
-        watchSlidesProgress: true,
-        autoplay: {
-            delay: 0,
-            disableOnInteraction: false,
-            pauseOnMouseEnter: false,
+   var testim3 = new Swiper(".testim-style3 .swiper-container", {
+    slidesPerView: 1.5,
+    spaceBetween: 30,
+    speed: 1200,
+    loop: true,
+    centeredSlides: false,
+    autoplay: {
+        delay: 1200,
+        disableOnInteraction: false,
+    },
+
+    breakpoints: {
+        0: {
+            slidesPerView: 1,
+            spaceBetween: 15,
         },
-        pagination: {
-            el: ".testim-style3 .swiper-pagination",
-            clickable: true,
+        768: {
+            slidesPerView: 1.5,
+            spaceBetween: 30,
         },
-        breakpoints: {
-            0: {
-                slidesPerView: 1,
-                spaceBetween: 15,
-            },
-            640: {
-                slidesPerView: 2,
-                spaceBetween: 20,
-            },
-            768: {
-                slidesPerView: 3,
-                spaceBetween: 30,
-            },
-            1024: {
-                slidesPerView: 3,
-                spaceBetween: 30,
-            },
-        },
-    });
+        992: {
+            slidesPerView: 1.5,
+            spaceBetween: 30,
+        }
+    }
+});
 
     var Blog1 = new Swiper('.blog-style1 .swiper-container , .blog-style2 .swiper-container', {
         slidesPerView: 1.5,
@@ -764,11 +753,8 @@ $(function () {
         }
     });
 
-
-
-
-
-     $(function () {
+    
+    $(function () {
         var width = $(window).width();
         "use strict";
 
@@ -850,6 +836,10 @@ $(function () {
             }
         }
     });
+
+     
+
+    
 
 
     /* =============================================================================
