@@ -10,7 +10,6 @@ include 'header.php'; ?>
         <main>
 
 
-
             <!-- ==================== Hero ==================== -->
             <header id="hero" class="pg-hero">
                 <div class="container">
@@ -325,8 +324,7 @@ include 'header.php'; ?>
 
 
 
-                        <div
-                            class="col-lg-6 items" data-ui-animate="" data-delay="0.2" style="
+                        <div class="col-lg-6 items" data-ui-animate="" data-delay="0.2" style="
                     position: absolute;
                     left: 728px;
                     top: 30px;
@@ -402,7 +400,7 @@ include 'header.php'; ?>
                     scale: none;
                     transform: translate(0px, 60px);
                   ">
-                  <a href="home-photo-section.php">
+                            <a href="home-photo-section.php">
                                 <div class="item">
                                     <div class="fit-img h-500px border-radius-30px o-hidden">
                                         <img src="assets/imgs/works/3/w3.jpg" alt="" class="h-620px" data-speed="0.8"
@@ -583,8 +581,8 @@ include 'header.php'; ?>
                             </div>
                             <div class="col-lg-5 col-md-8">
                                 <div>
-                                    <h2 class="fs-60 text-uppercase"><span class="opacity-7 d-inline">Our</span>
-                                        <br> capabilities.
+                                    <h2 class="fs-60 text-uppercase"><span class="opacity-7 d-inline">Dedicated</span>
+                                        <br> Portfolios
                                     </h2>
                                 </div>
                             </div>
@@ -609,54 +607,55 @@ include 'header.php'; ?>
                             </div>
                         </div>
                     </div>
-                    
-                    
+
+
                     <div class="row">
                         <div class="col-lg-4 md-mb30" data-ui-animate data-delay="0.4" data-delay="0.4"
                             data-direction="left">
                             <div class="item v-align-between">
                                 <a href="home-services1.php">
-                                <div class="img">
-                                    <img src="assets/imgs/serv/bs1.png" alt="">
-                                </div>
-                                <div>
-                                    <h4 class="mb-30px">Branding Design & Identity</h4>
-                                    <p>Crafting engaging and functional digital solutions, tailored to enhance user
-                                        interaction.</p>
-                                </div>
-                                <div>
-                                    <a href="home-services1.php" class="butn-more d-flex align-items-center">
-                                        <span class="text-uppercase fs-14 fw-500">Know More</span>
-                                        <span class="arrow-icon">
-                                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path
-                                                    d="M7 11.5H17.0635M17.0635 11.5L12.5635 7M17.0635 11.5L12.5635 16">
-                                                </path>
-                                            </svg>
-                                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path
-                                                    d="M7 11.5H17.0635M17.0635 11.5L12.5635 7M17.0635 11.5L12.5635 16">
-                                                </path>
-                                            </svg>
-                                        </span>
-                                    </a>
-                                </div>
+                                    <div class="img">
+                                        <img src="assets/imgs/serv/bs1.png" alt="">
+                                    </div>
+                                    <div>
+                                        <h4 class="mb-30px">Video Production & Edits</h4>
+                                        <p>Commercials, brand films, product videos, reels, and social-first content
+                                            crafted to engage modern audiences.</p>
+                                    </div>
+                                    <div>
+                                        <a href="home-services1.php" class="butn-more d-flex align-items-center">
+                                            <span class="text-uppercase fs-14 fw-500">Know More</span>
+                                            <span class="arrow-icon">
+                                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M7 11.5H17.0635M17.0635 11.5L12.5635 7M17.0635 11.5L12.5635 16">
+                                                    </path>
+                                                </svg>
+                                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M7 11.5H17.0635M17.0635 11.5L12.5635 7M17.0635 11.5L12.5635 16">
+                                                    </path>
+                                                </svg>
+                                            </span>
+                                        </a>
+                                    </div>
                             </div>
                         </div>
                         </a>
-                        
+
                         <div class="col-lg-4 md-mb30" data-ui-animate data-delay="0.4" data-delay="0.8">
                             <div class="item v-align-between bg-light">
+                                <a href="home-services2.php" class="butn-more d-flex align-items-center">
                                 <div class="img">
                                     <img src="assets/imgs/serv/bs2.png" alt="">
                                 </div>
                                 <div>
-                                    <h4 class="mb-30px">Website & Digital Design</h4>
-                                    <p>Crafting engaging and functional digital solutions, tailored to enhance user
-                                        interaction.</p>
+                                    <h4 class="mb-30px">Websites & Digital Products</h4>
+                                    <p>From business websites to custom web platforms, we create digital experiences
+                                        that convert and scale.</p>
                                 </div>
                                 <div>
-                                    <a href="home-services2.php" class="butn-more d-flex align-items-center">
+                                    
                                         <span class="text-uppercase fs-14 fw-500">Know More</span>
                                         <span class="arrow-icon">
                                             <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -674,19 +673,19 @@ include 'header.php'; ?>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4" data-ui-animate data-delay="0.4" data-delay="0.6"
-                            data-direction="right">
+                        <div class="col-lg-4" data-ui-animate data-delay="0.4" data-delay="0.6" data-direction="right">
                             <div class="item v-align-between">
+                                <a href="home-services3.php" class="butn-more d-flex align-items-center">
                                 <div class="img">
                                     <img src="assets/imgs/serv/bs3.png" alt="">
                                 </div>
                                 <div>
-                                    <h4 class="mb-30px">Strategy & Bold Consulting</h4>
-                                    <p>Crafting engaging and functional digital solutions, tailored to enhance user
-                                        interaction.</p>
+                                    <h4 class="mb-30px">Performance Marketing</h4>
+                                    <p>Google Ads, Meta Ads, LinkedIn campaigns, and conversion-focused advertising
+                                        designed to bring qualified leads and customers.</p>
                                 </div>
                                 <div>
-                                    <a href="page-services.html" class="butn-more d-flex align-items-center">
+                                    
                                         <span class="text-uppercase fs-14 fw-500">Know More</span>
                                         <span class="arrow-icon">
                                             <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -727,13 +726,14 @@ include 'header.php'; ?>
                                                 <div>
                                                     <h6 class="mb-15px">001</h6>
                                                     <h2 class="fs-60">
-                                                        <a href="project-details.html">Digital Marketing</a>
+                                                        <a href="project-details.html">Brand & Positioning</a>
                                                     </h2>
                                                 </div>
                                                 <div class="mt-40px">
                                                     <p>
-                                                        Maximise your online presence with our
-                                                        performance-driven digital marketing services.
+                                                        Shape how customers see, trust, and choose your business through
+                                                        clear positioning, thoughtful design, and consistent
+                                                        communication.
                                                     </p>
                                                     <div class="tags mt-20px">
                                                         <span>SEO</span>
@@ -761,13 +761,13 @@ include 'header.php'; ?>
                                                 <div>
                                                     <h6 class="mb-15px">002</h6>
                                                     <h2 class="fs-60">
-                                                        <a href="project-details.html">Product design</a>
+                                                        <a href="project-details.html">Digital Products</a>
                                                     </h2>
                                                 </div>
                                                 <div class="mt-40px">
                                                     <p>
-                                                        Digital designs that help brands move faster and
-                                                        convert better.
+                                                        From websites and eCommerce to custom platforms, we create
+                                                        digital products that support growth—not just launch.
                                                     </p>
                                                     <div class="tags mt-20px">
                                                         <span>Brand Identity</span>
@@ -794,13 +794,14 @@ include 'header.php'; ?>
                                                 <div>
                                                     <h6 class="mb-15px">003</h6>
                                                     <h2 class="fs-60">
-                                                        <a href="project-details.html">Branding Strategy</a>
+                                                        <a href="project-details.html">Marketing & Growth</a>
                                                     </h2>
                                                 </div>
                                                 <div class="mt-40px">
                                                     <p>
-                                                        Maximise your online presence with our
-                                                        performance-driven digital marketing services.
+                                                        Combine content, advertising, SEO, and strategy to attract
+                                                        qualified customers and turn attention into action.
+
                                                     </p>
                                                     <div class="tags mt-20px">
                                                         <span>Mobile App</span>
@@ -828,15 +829,14 @@ include 'header.php'; ?>
                                                     <h6 class="mb-15px">004</h6>
                                                     <h2 class="fs-60">
                                                         <a href="project-details.html">
-                                                            Search Engine Optimization
+                                                            AI & Automation
                                                         </a>
                                                     </h2>
                                                 </div>
                                                 <div class="mt-40px">
                                                     <p>
-                                                        From brand strategy to immersive digital
-                                                        experiences, we offer end-to-end creative
-                                                        solutions.
+                                                        Automate repetitive work, simplify operations, and build smarter
+                                                        workflows that free your team to focus on growth.
                                                     </p>
                                                     <div class="tags mt-20px">
                                                         <span>SEO</span>
@@ -888,8 +888,7 @@ include 'header.php'; ?>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div
-                                                class="pt-30px mt-30px line-top border-color-transparent-white-light">
+                                            <div class="pt-30px mt-30px line-top border-color-transparent-white-light">
                                                 <h5 class="testy">
                                                     "Working with was an outstanding experience. Their
                                                     ability to understand our vision and translate it
@@ -916,8 +915,7 @@ include 'header.php'; ?>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div
-                                                class="pt-30px mt-30px line-top border-color-transparent-white-light">
+                                            <div class="pt-30px mt-30px line-top border-color-transparent-white-light">
                                                 <h5 class="testy">
                                                     "Working with was an outstanding experience. Their
                                                     ability to understand our vision and translate it
@@ -943,8 +941,7 @@ include 'header.php'; ?>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div
-                                                class="pt-30px mt-30px line-top border-color-transparent-white-light">
+                                            <div class="pt-30px mt-30px line-top border-color-transparent-white-light">
                                                 <h5 class="testy">
                                                     "Working with was an outstanding experience. Their
                                                     ability to understand our vision and translate it
@@ -970,8 +967,7 @@ include 'header.php'; ?>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div
-                                                class="pt-30px mt-30px line-top border-color-transparent-white-light">
+                                            <div class="pt-30px mt-30px line-top border-color-transparent-white-light">
                                                 <h5 class="testy">
                                                     "Working with was an outstanding experience. Their
                                                     ability to understand our vision and translate it
@@ -998,8 +994,7 @@ include 'header.php'; ?>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div
-                                                class="pt-30px mt-30px line-top border-color-transparent-white-light">
+                                            <div class="pt-30px mt-30px line-top border-color-transparent-white-light">
                                                 <h5 class="testy">
                                                     "Working with was an outstanding experience. Their
                                                     ability to understand our vision and translate it
@@ -1025,8 +1020,7 @@ include 'header.php'; ?>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div
-                                                class="pt-30px mt-30px line-top border-color-transparent-white-light">
+                                            <div class="pt-30px mt-30px line-top border-color-transparent-white-light">
                                                 <h5 class="testy">
                                                     "Working with was an outstanding experience. Their
                                                     ability to understand our vision and translate it

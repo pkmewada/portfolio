@@ -1389,3 +1389,12 @@ $(function () {
     }
 });
 
+window.addEventListener("pageshow", function (event) {
+    if (event.persisted) {
+        ScrollTrigger.refresh();
+
+        if (window.ScrollSmoother) {
+            ScrollSmoother.get()?.refresh();
+        }
+    }
+});
