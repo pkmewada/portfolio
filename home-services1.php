@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -24,7 +25,25 @@
 
     <!-- Plugins & Core Styles -->
     <link rel="stylesheet" href="assets/css/plugins.css">
-    <link rel="stylesheet" href="assets/css/style.css?v=1784974585">
+     <link rel="stylesheet" href="assets/css/style.css?v=1785396050">
+     
+     
+     <style>
+         .parallax-img{
+                overflow:hidden;
+            }
+            
+            .parallax-img img{
+                width:100%;
+                height:auto;
+                min-height:100%;
+                transition:transform 5s linear;
+            }
+            
+            .parallax-item:hover .parallax-img img{
+                transform:translateY(calc(-100% + 100%));
+            }
+     </style>
 </head>
 
 <body class="main-bg">
@@ -52,7 +71,7 @@
     <!-- ==================== Navbar ==================== -->
     <nav class="navbar navbar-expand-lg">
         <div class="container">
-            <a class="logo" href="#">
+            <a class="logo" href="index.php">
                 <img src="assets/imgs/logo/logo.webp" alt="Mqlus" class="w-160px">
             </a>
 
@@ -99,7 +118,9 @@
                             <span>Branding</span>
                             <h4>Digital Marketing</h4>
                         </div>
-                        <div class="parallax-img bg-img" data-background="assets/imgs/works/2/1.webp"></div>
+                        <div class="parallax-img">
+                            <img src="assets/imgs/website-longscreenshot/mqlus.webp" alt="Digital Marketing">
+                        </div>
                     </a>
                 </div>
                 <div class="parallax-item not-hide-cursor">
@@ -108,7 +129,9 @@
                             <span>Design</span>
                             <h4>Product Design</h4>
                         </div>
-                        <div class="parallax-img bg-img" data-background="assets/imgs/works/2/11.webp"></div>
+                        <div class="parallax-img">
+                            <img src="assets/imgs/works/2/11.webp" alt="Digital Marketing">
+                        </div>
                     </a>
                 </div>
                 <div class="parallax-item not-hide-cursor">
@@ -117,7 +140,9 @@
                             <span>Online</span>
                             <h4>Online Visibility</h4>
                         </div>
-                        <div class="parallax-img bg-img" data-background="assets/imgs/works/2/9.webp"></div>
+                        <div class="parallax-img">
+                            <img src="assets/imgs/works/2/9.webp" alt="Digital Marketing">
+                        </div>
                     </a>
                 </div>
                 <div class="parallax-item not-hide-cursor">
@@ -126,7 +151,9 @@
                             <span>Business</span>
                             <h4>Small Businesses</h4>
                         </div>
-                        <div class="parallax-img bg-img" data-background="assets/imgs/works/2/4.webp"></div>
+                        <div class="parallax-img">
+                            <img src="assets/imgs/works/2/4.webp" alt="Digital Marketing">
+                        </div>
                     </a>
                 </div>
                 <div class="parallax-item not-hide-cursor">
@@ -135,7 +162,9 @@
                             <span>App</span>
                             <h4>Mobile App</h4>
                         </div>
-                        <div class="parallax-img bg-img" data-background="assets/imgs/works/2/1.png"></div>
+                        <div class="parallax-img">
+                            <img src="assets/imgs/works/2/1.webp" alt="Digital Marketing">
+                        </div>
                     </a>
                 </div>
                 <div class="parallax-item not-hide-cursor">
@@ -144,7 +173,9 @@
                             <span>Quality</span>
                             <h4>Quality Content</h4>
                         </div>
-                        <div class="parallax-img bg-img" data-background="assets/imgs/works/2/6.webp"></div>
+                        <div class="parallax-img">
+                            <img src="assets/imgs/works/2/6.webp" alt="Digital Marketing">
+                        </div>
                     </a>
                 </div>
                 <div class="parallax-item not-hide-cursor">
@@ -153,7 +184,9 @@
                             <span>Marketing</span>
                             <h4>Marketing Mistakes</h4>
                         </div>
-                        <div class="parallax-img bg-img" data-background="assets/imgs/works/2/7.webp"></div>
+                        <div class="parallax-img">
+                            <img src="assets/imgs/works/2/7.webp" alt="Digital Marketing">
+                        </div>
                     </a>
                 </div>
             </div>
@@ -174,9 +207,51 @@
     <script src="assets/js/ScrollSmoother.min.js"></script>
     <script src="assets/js/ScrollTrigger.min.js"></script>
     <script src="assets/js/parallax-slider.js"></script>
+    <script>
+        document.querySelectorAll(".parallax-item").forEach((item) => {
+        const img = item.querySelector(".parallax-img img");
+    
+        if (!img) return;
+    
+        function animateImage() {
+            const wrapperHeight = item.offsetHeight;
+            const imageHeight = img.offsetHeight;
+    
+            let move = imageHeight - wrapperHeight;
+    
+            if (move < 0) move = 0;
+    
+            img.style.transform = `translateX(-50%) translateY(-${move}px)`;
+        }
+    
+        function resetImage() {
+            img.style.transform = "translateX(-50%) translateY(0)";
+        }
+    
+        if (img.complete) {
+            // Image already loaded
+        } else {
+            img.onload = function () {};
+        }
+    
+        item.addEventListener("mouseenter", animateImage);
+        item.addEventListener("mouseleave", resetImage);
+    
+    });
+    
+    
+    window.addEventListener("resize", () => {
 
+        document.querySelectorAll(".parallax-img img").forEach(img => {
+            img.style.transform = "translateX(-50%) translateY(0)";
+        });
+    
+    });
+    </script>
     <!-- custom scripts -->
     <script src="assets/js/scripts.js"></script>
+    
+    
 
 </body>
 

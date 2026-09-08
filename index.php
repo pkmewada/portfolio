@@ -569,9 +569,6 @@ include 'header.php'; ?>
             </section>
 
 
-
-            <section></section>
-
             <section class="serv-style4 pt-0">
                 <div class="container">
                     <div class="sec-head bord mb-80px" data-ui-animate data-delay="0.2">
@@ -613,7 +610,7 @@ include 'header.php'; ?>
                         <div class="col-lg-4 md-mb30" data-ui-animate data-delay="0.4" data-delay="0.4"
                             data-direction="left">
                             <div class="item v-align-between">
-                                <a href="home-services1.php">
+                                <a href="home-services3.php">
                                     <div class="img">
                                         <img src="assets/imgs/serv/bs1.png" alt="">
                                     </div>
@@ -623,7 +620,7 @@ include 'header.php'; ?>
                                             crafted to engage modern audiences.</p>
                                     </div>
                                     <div>
-                                        <a href="home-services1.php" class="butn-more d-flex align-items-center">
+                                        <a href="home-services3.php" class="butn-more d-flex align-items-center">
                                             <span class="text-uppercase fs-14 fw-500">Know More</span>
                                             <span class="arrow-icon">
                                                 <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -645,17 +642,17 @@ include 'header.php'; ?>
 
                         <div class="col-lg-4 md-mb30" data-ui-animate data-delay="0.4" data-delay="0.8">
                             <div class="item v-align-between bg-light">
-                                <a href="home-services2.php" class="butn-more d-flex align-items-center">
-                                <div class="img">
-                                    <img src="assets/imgs/serv/bs2.png" alt="">
-                                </div>
-                                <div>
-                                    <h4 class="mb-30px">Websites & Digital Products</h4>
-                                    <p>From business websites to custom web platforms, we create digital experiences
-                                        that convert and scale.</p>
-                                </div>
-                                <div>
-                                    
+                                <a href="home-services1.php" class="butn-more d-flex align-items-center">
+                                    <div class="img">
+                                        <img src="assets/imgs/serv/bs2.png" alt="">
+                                    </div>
+                                    <div>
+                                        <h4 class="mb-30px">Websites & Digital Products</h4>
+                                        <p>From business websites to custom web platforms, we create digital experiences
+                                            that convert and scale.</p>
+                                    </div>
+                                    <div>
+
                                         <span class="text-uppercase fs-14 fw-500">Know More</span>
                                         <span class="arrow-icon">
                                             <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -669,13 +666,13 @@ include 'header.php'; ?>
                                                 </path>
                                             </svg>
                                         </span>
-                                    </a>
-                                </div>
+                                </a>
                             </div>
                         </div>
-                        <div class="col-lg-4" data-ui-animate data-delay="0.4" data-delay="0.6" data-direction="right">
-                            <div class="item v-align-between">
-                                <a href="home-services3.php" class="butn-more d-flex align-items-center">
+                    </div>
+                    <div class="col-lg-4" data-ui-animate data-delay="0.4" data-delay="0.6" data-direction="right">
+                        <div class="item v-align-between">
+                            <a href="home-services2.php" class="butn-more d-flex align-items-center">
                                 <div class="img">
                                     <img src="assets/imgs/serv/bs3.png" alt="">
                                 </div>
@@ -685,552 +682,556 @@ include 'header.php'; ?>
                                         designed to bring qualified leads and customers.</p>
                                 </div>
                                 <div>
-                                    
-                                        <span class="text-uppercase fs-14 fw-500">Know More</span>
-                                        <span class="arrow-icon">
-                                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path
-                                                    d="M7 11.5H17.0635M17.0635 11.5L12.5635 7M17.0635 11.5L12.5635 16">
-                                                </path>
-                                            </svg>
-                                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path
-                                                    d="M7 11.5H17.0635M17.0635 11.5L12.5635 7M17.0635 11.5L12.5635 16">
-                                                </path>
-                                            </svg>
-                                        </span>
-                                    </a>
+
+                                    <span class="text-uppercase fs-14 fw-500">Know More</span>
+                                    <span class="arrow-icon">
+                                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M7 11.5H17.0635M17.0635 11.5L12.5635 7M17.0635 11.5L12.5635 16">
+                                            </path>
+                                        </svg>
+                                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M7 11.5H17.0635M17.0635 11.5L12.5635 7M17.0635 11.5L12.5635 16">
+                                            </path>
+                                        </svg>
+                                    </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+    </div>
+</div>
+</section>
+
+
+
+
+
+<!-- ==================== Services ==================== -->
+<section id="services" class="serv-style2">
+    <div class="container">
+        <div class="cardStacking">
+            <div class="cardStacking__cards row">
+
+
+                <div class="pin-spacer">
+                    <div class="stackCard col-lg-12 col-md-6 mb-20px">
+                        <div class="item row sub-bg border-radius-30px">
+                            <div class="col-lg-5">
+                                <div class="cont h-100 v-align-between">
+                                    <div>
+                                        <h6 class="mb-15px">001</h6>
+                                        <h2 class="fs-60">
+                                            <a href="project-details.html">Brand & Positioning</a>
+                                        </h2>
+                                    </div>
+                                    <div class="mt-40px">
+                                        <p>
+                                            Shape how customers see, trust, and choose your business through
+                                            clear positioning, thoughtful design, and consistent
+                                            communication.
+                                        </p>
+                                        <div class="tags mt-20px">
+                                            <span>SEO</span>
+                                            <span>Marketing Automation</span>
+                                            <span>Digital Strategy</span>
+                                            <span>Email Marketing</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 offset-lg-1 p-0 md-hide">
+                                <div class="fit-img h-100">
+                                    <img src="assets/imgs/serv/sr1.png" alt="" />
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
 
-
-
-
-
-            <!-- ==================== Services ==================== -->
-            <section id="services" class="serv-style2">
-                <div class="container">
-                    <div class="cardStacking">
-                        <div class="cardStacking__cards row">
-
-
-                            <div class="pin-spacer">
-                                <div class="stackCard col-lg-12 col-md-6 mb-20px">
-                                    <div class="item row sub-bg border-radius-30px">
-                                        <div class="col-lg-5">
-                                            <div class="cont h-100 v-align-between">
-                                                <div>
-                                                    <h6 class="mb-15px">001</h6>
-                                                    <h2 class="fs-60">
-                                                        <a href="project-details.html">Brand & Positioning</a>
-                                                    </h2>
-                                                </div>
-                                                <div class="mt-40px">
-                                                    <p>
-                                                        Shape how customers see, trust, and choose your business through
-                                                        clear positioning, thoughtful design, and consistent
-                                                        communication.
-                                                    </p>
-                                                    <div class="tags mt-20px">
-                                                        <span>SEO</span>
-                                                        <span>Marketing Automation</span>
-                                                        <span>Digital Strategy</span>
-                                                        <span>Email Marketing</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6 offset-lg-1 p-0 md-hide">
-                                            <div class="fit-img h-100">
-                                                <img src="assets/imgs/serv/sr1.png" alt="" />
-                                            </div>
+                <div class="pin-spacer">
+                    <div class="stackCard col-lg-12 col-md-6 mb-20px">
+                        <div class="item row main-colorbg bg-light border-radius-30px">
+                            <div class="col-lg-5">
+                                <div class="cont h-100 v-align-between">
+                                    <div>
+                                        <h6 class="mb-15px">002</h6>
+                                        <h2 class="fs-60">
+                                            <a href="project-details.html">Digital Products</a>
+                                        </h2>
+                                    </div>
+                                    <div class="mt-40px">
+                                        <p>
+                                            From websites and eCommerce to custom platforms, we create
+                                            digital products that support growth—not just launch.
+                                        </p>
+                                        <div class="tags mt-20px">
+                                            <span>Brand Identity</span>
+                                            <span>Graphic Design</span>
+                                            <span>Creative Direction</span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-
-                            <div class="pin-spacer">
-                                <div class="stackCard col-lg-12 col-md-6 mb-20px">
-                                    <div class="item row main-colorbg bg-light border-radius-30px">
-                                        <div class="col-lg-5">
-                                            <div class="cont h-100 v-align-between">
-                                                <div>
-                                                    <h6 class="mb-15px">002</h6>
-                                                    <h2 class="fs-60">
-                                                        <a href="project-details.html">Digital Products</a>
-                                                    </h2>
-                                                </div>
-                                                <div class="mt-40px">
-                                                    <p>
-                                                        From websites and eCommerce to custom platforms, we create
-                                                        digital products that support growth—not just launch.
-                                                    </p>
-                                                    <div class="tags mt-20px">
-                                                        <span>Brand Identity</span>
-                                                        <span>Graphic Design</span>
-                                                        <span>Creative Direction</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6 offset-lg-1 p-0 md-hide">
-                                            <div class="fit-img h-100">
-                                                <img src="assets/imgs/serv/sr4.png" alt="" />
-                                            </div>
-                                        </div>
-                                    </div>
+                            <div class="col-lg-6 offset-lg-1 p-0 md-hide">
+                                <div class="fit-img h-100">
+                                    <img src="assets/imgs/serv/sr4.png" alt="" />
                                 </div>
-                            </div>
-
-                            <div class="pin-spacer">
-                                <div class="stackCard col-lg-12 col-md-6 mb-20px">
-                                    <div class="item row bg-light border-radius-30px">
-                                        <div class="col-lg-5">
-                                            <div class="cont h-100 v-align-between">
-                                                <div>
-                                                    <h6 class="mb-15px">003</h6>
-                                                    <h2 class="fs-60">
-                                                        <a href="project-details.html">Marketing & Growth</a>
-                                                    </h2>
-                                                </div>
-                                                <div class="mt-40px">
-                                                    <p>
-                                                        Combine content, advertising, SEO, and strategy to attract
-                                                        qualified customers and turn attention into action.
-
-                                                    </p>
-                                                    <div class="tags mt-20px">
-                                                        <span>Mobile App</span>
-                                                        <span>Brand Identity</span>
-                                                        <span>Digital Strategy</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6 offset-lg-1 p-0 md-hide">
-                                            <div class="fit-img h-100">
-                                                <img src="assets/imgs/serv/sr2.png" alt="" />
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="pin-spacer">
-                                <div class="stackCard col-lg-12 col-md-6">
-                                    <div class="item row main-colorbg2 bg-light border-radius-30px">
-                                        <div class="col-lg-5">
-                                            <div class="cont h-100 v-align-between">
-                                                <div>
-                                                    <h6 class="mb-15px">004</h6>
-                                                    <h2 class="fs-60">
-                                                        <a href="project-details.html">
-                                                            AI & Automation
-                                                        </a>
-                                                    </h2>
-                                                </div>
-                                                <div class="mt-40px">
-                                                    <p>
-                                                        Automate repetitive work, simplify operations, and build smarter
-                                                        workflows that free your team to focus on growth.
-                                                    </p>
-                                                    <div class="tags mt-20px">
-                                                        <span>SEO</span>
-                                                        <span>Marketing Automation</span>
-                                                        <span>Digital Strategy</span>
-                                                        <span>Email Marketing</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6 offset-lg-1 p-0 md-hide">
-                                            <div class="fit-img h-100">
-                                                <img src="assets/imgs/serv/sr3.png" alt="" />
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-
-
-
-
-            <!-- ==================== Start Testimonials ==================== -->
-            <section class="testim-style3">
-                <div class="container">
-                    <div class="row sm-marg">
-
-                        <!-- Testimonial Slider -->
-                        <div class="col-lg-9 md-mb10">
-                            <div class="swiper-container" data-ui-animate data-delay="0.2">
-                                <div class="swiper-wrapper">
-                                    <div class="swiper-slide">
-                                        <div class="item">
-                                            <div class="info d-flex justify-content-between">
-                                                <div class="d-flex align-items-center">
-                                                    <div class="fit-img  border-radius-50 o-hidden">
-                                                        <img src="https://html.aqlova.com/agntix-prv/agntix/assets/img/home-04/avater/avater-1.jpg"
-                                                            alt="" />
-                                                    </div>
-                                                    <div class="ml-30px">
-                                                        <h6 class="fs-18">Carol Buyers</h6>
-                                                        <span class="opacity-7 mt-5px">Ceo Founder</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="pt-30px mt-30px line-top border-color-transparent-white-light">
-                                                <h5 class="testy">
-                                                    "Working with was an outstanding experience. Their
-                                                    ability to understand our vision and translate it
-                                                    into a clean Lorem ipsum dolor sit amet consectetur adipisicing
-                                                    elit. Repellendus veniam omnis quis placeat inventore, itaque
-                                                    reiciendis reprehenderit! Reprehenderit, molestiae distinctio?
-                                                    Veritatis excepturi esse inventore! Pariatur ipsum dignissimos
-                                                    similique aliquid atque?."
-                                                </h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="item">
-                                            <div class="info d-flex justify-content-between">
-                                                <div class="d-flex align-items-center">
-                                                    <div class="fit-img  border-radius-50 o-hidden">
-                                                        <img src="https://html.aqlova.com/agntix-prv/agntix/assets/img/home-04/avater/avater-1.jpg"
-                                                            alt="" />
-                                                    </div>
-                                                    <div class="ml-30px">
-                                                        <h6 class="fs-18">Carol Buyers</h6>
-                                                        <span class="opacity-7 mt-5px">Ceo Founder</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="pt-30px mt-30px line-top border-color-transparent-white-light">
-                                                <h5 class="testy">
-                                                    "Working with was an outstanding experience. Their
-                                                    ability to understand our vision and translate it
-                                                    into a clean Lorem ipsum dolor sit amet consectetur adipisicing
-                                                    elit. Reprehenderit magni illum voluptatem possimus facilis,
-                                                    architecto deserunt eaque veniam natus molestiae, at libero modi
-                                                    fuga commodi itaque! Aperiam, pariatur. Perspiciatis, facere?."
-                                                </h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="item">
-                                            <div class="info d-flex justify-content-between">
-                                                <div class="d-flex align-items-center">
-                                                    <div class="fit-img  border-radius-50 o-hidden">
-                                                        <img src="https://html.aqlova.com/agntix-prv/agntix/assets/img/home-04/avater/avater-1.jpg"
-                                                            alt="" />
-                                                    </div>
-                                                    <div class="ml-30px">
-                                                        <h6 class="fs-18">Carol Buyers</h6>
-                                                        <span class="opacity-7 mt-5px">Ceo Founder</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="pt-30px mt-30px line-top border-color-transparent-white-light">
-                                                <h5 class="testy">
-                                                    "Working with was an outstanding experience. Their
-                                                    ability to understand our vision and translate it
-                                                    into a clean Lorem ipsum dolor sit amet consectetur adipisicing
-                                                    elit. Rem sunt nisi veniam id, delectus, voluptatum excepturi,
-                                                    tenetur omnis accusantium quo doloribus. Quisquam qui recusandae
-                                                    amet unde. Quisquam temporibus autem illo!."
-                                                </h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="item">
-                                            <div class="info d-flex justify-content-between">
-                                                <div class="d-flex align-items-center">
-                                                    <div class="fit-img  border-radius-50 o-hidden">
-                                                        <img src="https://html.aqlova.com/agntix-prv/agntix/assets/img/home-04/avater/avater-1.jpg"
-                                                            alt="" />
-                                                    </div>
-                                                    <div class="ml-30px">
-                                                        <h6 class="fs-18">Carol Buyers</h6>
-                                                        <span class="opacity-7 mt-5px">Ceo Founder</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="pt-30px mt-30px line-top border-color-transparent-white-light">
-                                                <h5 class="testy">
-                                                    "Working with was an outstanding experience. Their
-                                                    ability to understand our vision and translate it
-                                                    into a clean Lorem ipsum dolor sit amet consectetur adipisicing
-                                                    elit. Repellendus veniam omnis quis placeat inventore, itaque
-                                                    reiciendis reprehenderit! Reprehenderit, molestiae distinctio?
-                                                    Veritatis excepturi esse inventore! Pariatur ipsum dignissimos
-                                                    similique aliquid atque?."
-                                                </h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="item">
-                                            <div class="info d-flex justify-content-between">
-                                                <div class="d-flex align-items-center">
-                                                    <div class="fit-img  border-radius-50 o-hidden">
-                                                        <img src="https://html.aqlova.com/agntix-prv/agntix/assets/img/home-04/avater/avater-1.jpg"
-                                                            alt="" />
-                                                    </div>
-                                                    <div class="ml-30px">
-                                                        <h6 class="fs-18">Carol Buyers</h6>
-                                                        <span class="opacity-7 mt-5px">Ceo Founder</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="pt-30px mt-30px line-top border-color-transparent-white-light">
-                                                <h5 class="testy">
-                                                    "Working with was an outstanding experience. Their
-                                                    ability to understand our vision and translate it
-                                                    into a clean Lorem ipsum dolor sit amet consectetur adipisicing
-                                                    elit. Reprehenderit magni illum voluptatem possimus facilis,
-                                                    architecto deserunt eaque veniam natus molestiae, at libero modi
-                                                    fuga commodi itaque! Aperiam, pariatur. Perspiciatis, facere?."
-                                                </h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="item">
-                                            <div class="info d-flex justify-content-between">
-                                                <div class="d-flex align-items-center">
-                                                    <div class="fit-img  border-radius-50 o-hidden">
-                                                        <img src="https://html.aqlova.com/agntix-prv/agntix/assets/img/home-04/avater/avater-1.jpg"
-                                                            alt="" />
-                                                    </div>
-                                                    <div class="ml-30px">
-                                                        <h6 class="fs-18">Carol Buyers</h6>
-                                                        <span class="opacity-7 mt-5px">Ceo Founder</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="pt-30px mt-30px line-top border-color-transparent-white-light">
-                                                <h5 class="testy">
-                                                    "Working with was an outstanding experience. Their
-                                                    ability to understand our vision and translate it
-                                                    into a clean Lorem ipsum dolor sit amet consectetur adipisicing
-                                                    elit. Rem sunt nisi veniam id, delectus, voluptatum excepturi,
-                                                    tenetur omnis accusantium quo doloribus. Quisquam qui recusandae
-                                                    amet unde. Quisquam temporibus autem illo!."
-                                                </h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Rating Box -->
-                        <div class="col-lg-3 team-intro">
-                            <div class="item bg-light p-40px border-radius-15px o-hidden v-align-between"
-                                data-ui-animate data-delay="0.2">
-
-                                <div class="mb-50px">
-                                    <span class="text-uppercase">(Rating)</span>
-                                    <h2 class="fs-100 main-color2">4.9/5</h2>
-                                </div>
-
-                                <div class="pt-30px line-top border-color-transparent-dark-light">
-                                    <div class="d-flex align-items-center justify-content-between">
-                                        <h6 class="fs-18 fw-300">
-                                            By <span class="fw-600">200k+</span> clients <br>
-                                            world-wide
-                                        </h6>
-
-                                        <span>
-                                            <img src="assets/imgs/trustpilot.svg" alt="" class="w-100px">
-                                        </span>
-                                    </div>
-                                </div>
-
                             </div>
                         </div>
                     </div>
-            </section>
-
-
-
-
-            <section class="brand-style1">
-
-                <div class="fixed-card">
-                    <img src="assets/imgs/global.svg" alt="">
-                    <span>125+ clients <br> worldwide</span>
                 </div>
 
-                <div class="brand-slider">
+                <div class="pin-spacer">
+                    <div class="stackCard col-lg-12 col-md-6 mb-20px">
+                        <div class="item row bg-light border-radius-30px">
+                            <div class="col-lg-5">
+                                <div class="cont h-100 v-align-between">
+                                    <div>
+                                        <h6 class="mb-15px">003</h6>
+                                        <h2 class="fs-60">
+                                            <a href="project-details.html">Marketing & Growth</a>
+                                        </h2>
+                                    </div>
+                                    <div class="mt-40px">
+                                        <p>
+                                            Combine content, advertising, SEO, and strategy to attract
+                                            qualified customers and turn attention into action.
 
-                    <div class="brand-track">
-
-                        <!-- First -->
-                        <div class="brand-card">
-                            <img src="assets/imgs/clients/2.svg" alt="">
+                                        </p>
+                                        <div class="tags mt-20px">
+                                            <span>Mobile App</span>
+                                            <span>Brand Identity</span>
+                                            <span>Digital Strategy</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 offset-lg-1 p-0 md-hide">
+                                <div class="fit-img h-100">
+                                    <img src="assets/imgs/serv/sr2.png" alt="" />
+                                </div>
+                            </div>
                         </div>
+                    </div>
+                </div>
 
-                        <div class="brand-card">
-                            <img src="assets/imgs/clients/1.svg" alt="">
+                <div class="pin-spacer">
+                    <div class="stackCard col-lg-12 col-md-6">
+                        <div class="item row main-colorbg2 bg-light border-radius-30px">
+                            <div class="col-lg-5">
+                                <div class="cont h-100 v-align-between">
+                                    <div>
+                                        <h6 class="mb-15px">004</h6>
+                                        <h2 class="fs-60">
+                                            <a href="project-details.html">
+                                                AI & Automation
+                                            </a>
+                                        </h2>
+                                    </div>
+                                    <div class="mt-40px">
+                                        <p>
+                                            Automate repetitive work, simplify operations, and build smarter
+                                            workflows that free your team to focus on growth.
+                                        </p>
+                                        <div class="tags mt-20px">
+                                            <span>SEO</span>
+                                            <span>Marketing Automation</span>
+                                            <span>Digital Strategy</span>
+                                            <span>Email Marketing</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 offset-lg-1 p-0 md-hide">
+                                <div class="fit-img h-100">
+                                    <img src="assets/imgs/serv/sr3.png" alt="" />
+                                </div>
+                            </div>
                         </div>
+                    </div>
+                </div>
 
-                        <div class="brand-card">
-                            <img src="assets/imgs/clients/3.svg" alt="">
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<!-- ==================== Start Testimonials ==================== -->
+<section class="testim-style3">
+    <div class="container">
+        <div class="row sm-marg">
+
+            <!-- Testimonial Slider -->
+            <div class="col-lg-9 md-mb10">
+                <div class="swiper-container" data-ui-animate data-delay="0.2">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="item">
+                                <div class="info d-flex justify-content-between">
+                                    <div class="d-flex align-items-center">
+                                        <div class="fit-img  border-radius-50 o-hidden">
+                                            <img src="https://html.aqlova.com/agntix-prv/agntix/assets/img/home-04/avater/avater-1.jpg"
+                                                alt="" />
+                                        </div>
+                                        <div class="ml-30px">
+                                            <h6 class="fs-18">Carol Buyers</h6>
+                                            <span class="opacity-7 mt-5px">Ceo Founder</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pt-30px mt-30px line-top border-color-transparent-white-light">
+                                    <h5 class="testy">
+                                        "Working with was an outstanding experience. Their
+                                        ability to understand our vision and translate it
+                                        into a clean Lorem ipsum dolor sit amet consectetur adipisicing
+                                        elit. Repellendus veniam omnis quis placeat inventore, itaque
+                                        reiciendis reprehenderit! Reprehenderit, molestiae distinctio?
+                                        Veritatis excepturi esse inventore! Pariatur ipsum dignissimos
+                                        similique aliquid atque?."
+                                    </h5>
+                                </div>
+                            </div>
                         </div>
-
-                        <div class="brand-card">
-                            <img src="assets/imgs/clients/4.svg" alt="">
+                        <div class="swiper-slide">
+                            <div class="item">
+                                <div class="info d-flex justify-content-between">
+                                    <div class="d-flex align-items-center">
+                                        <div class="fit-img  border-radius-50 o-hidden">
+                                            <img src="https://html.aqlova.com/agntix-prv/agntix/assets/img/home-04/avater/avater-1.jpg"
+                                                alt="" />
+                                        </div>
+                                        <div class="ml-30px">
+                                            <h6 class="fs-18">Carol Buyers</h6>
+                                            <span class="opacity-7 mt-5px">Ceo Founder</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pt-30px mt-30px line-top border-color-transparent-white-light">
+                                    <h5 class="testy">
+                                        "Working with was an outstanding experience. Their
+                                        ability to understand our vision and translate it
+                                        into a clean Lorem ipsum dolor sit amet consectetur adipisicing
+                                        elit. Reprehenderit magni illum voluptatem possimus facilis,
+                                        architecto deserunt eaque veniam natus molestiae, at libero modi
+                                        fuga commodi itaque! Aperiam, pariatur. Perspiciatis, facere?."
+                                    </h5>
+                                </div>
+                            </div>
                         </div>
-
-                        <!-- Duplicate -->
-
-                        <div class="brand-card">
-                            <img src="assets/imgs/clients/2.svg" alt="">
+                        <div class="swiper-slide">
+                            <div class="item">
+                                <div class="info d-flex justify-content-between">
+                                    <div class="d-flex align-items-center">
+                                        <div class="fit-img  border-radius-50 o-hidden">
+                                            <img src="https://html.aqlova.com/agntix-prv/agntix/assets/img/home-04/avater/avater-1.jpg"
+                                                alt="" />
+                                        </div>
+                                        <div class="ml-30px">
+                                            <h6 class="fs-18">Carol Buyers</h6>
+                                            <span class="opacity-7 mt-5px">Ceo Founder</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pt-30px mt-30px line-top border-color-transparent-white-light">
+                                    <h5 class="testy">
+                                        "Working with was an outstanding experience. Their
+                                        ability to understand our vision and translate it
+                                        into a clean Lorem ipsum dolor sit amet consectetur adipisicing
+                                        elit. Rem sunt nisi veniam id, delectus, voluptatum excepturi,
+                                        tenetur omnis accusantium quo doloribus. Quisquam qui recusandae
+                                        amet unde. Quisquam temporibus autem illo!."
+                                    </h5>
+                                </div>
+                            </div>
                         </div>
-
-                        <div class="brand-card">
-                            <img src="assets/imgs/clients/1.svg" alt="">
+                        <div class="swiper-slide">
+                            <div class="item">
+                                <div class="info d-flex justify-content-between">
+                                    <div class="d-flex align-items-center">
+                                        <div class="fit-img  border-radius-50 o-hidden">
+                                            <img src="https://html.aqlova.com/agntix-prv/agntix/assets/img/home-04/avater/avater-1.jpg"
+                                                alt="" />
+                                        </div>
+                                        <div class="ml-30px">
+                                            <h6 class="fs-18">Carol Buyers</h6>
+                                            <span class="opacity-7 mt-5px">Ceo Founder</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pt-30px mt-30px line-top border-color-transparent-white-light">
+                                    <h5 class="testy">
+                                        "Working with was an outstanding experience. Their
+                                        ability to understand our vision and translate it
+                                        into a clean Lorem ipsum dolor sit amet consectetur adipisicing
+                                        elit. Repellendus veniam omnis quis placeat inventore, itaque
+                                        reiciendis reprehenderit! Reprehenderit, molestiae distinctio?
+                                        Veritatis excepturi esse inventore! Pariatur ipsum dignissimos
+                                        similique aliquid atque?."
+                                    </h5>
+                                </div>
+                            </div>
                         </div>
-
-                        <div class="brand-card">
-                            <img src="assets/imgs/clients/3.svg" alt="">
+                        <div class="swiper-slide">
+                            <div class="item">
+                                <div class="info d-flex justify-content-between">
+                                    <div class="d-flex align-items-center">
+                                        <div class="fit-img  border-radius-50 o-hidden">
+                                            <img src="https://html.aqlova.com/agntix-prv/agntix/assets/img/home-04/avater/avater-1.jpg"
+                                                alt="" />
+                                        </div>
+                                        <div class="ml-30px">
+                                            <h6 class="fs-18">Carol Buyers</h6>
+                                            <span class="opacity-7 mt-5px">Ceo Founder</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pt-30px mt-30px line-top border-color-transparent-white-light">
+                                    <h5 class="testy">
+                                        "Working with was an outstanding experience. Their
+                                        ability to understand our vision and translate it
+                                        into a clean Lorem ipsum dolor sit amet consectetur adipisicing
+                                        elit. Reprehenderit magni illum voluptatem possimus facilis,
+                                        architecto deserunt eaque veniam natus molestiae, at libero modi
+                                        fuga commodi itaque! Aperiam, pariatur. Perspiciatis, facere?."
+                                    </h5>
+                                </div>
+                            </div>
                         </div>
-
-                        <div class="brand-card">
-                            <img src="assets/imgs/clients/4.svg" alt="">
+                        <div class="swiper-slide">
+                            <div class="item">
+                                <div class="info d-flex justify-content-between">
+                                    <div class="d-flex align-items-center">
+                                        <div class="fit-img  border-radius-50 o-hidden">
+                                            <img src="https://html.aqlova.com/agntix-prv/agntix/assets/img/home-04/avater/avater-1.jpg"
+                                                alt="" />
+                                        </div>
+                                        <div class="ml-30px">
+                                            <h6 class="fs-18">Carol Buyers</h6>
+                                            <span class="opacity-7 mt-5px">Ceo Founder</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pt-30px mt-30px line-top border-color-transparent-white-light">
+                                    <h5 class="testy">
+                                        "Working with was an outstanding experience. Their
+                                        ability to understand our vision and translate it
+                                        into a clean Lorem ipsum dolor sit amet consectetur adipisicing
+                                        elit. Rem sunt nisi veniam id, delectus, voluptatum excepturi,
+                                        tenetur omnis accusantium quo doloribus. Quisquam qui recusandae
+                                        amet unde. Quisquam temporibus autem illo!."
+                                    </h5>
+                                </div>
+                            </div>
                         </div>
+                    </div>
+                </div>
+            </div>
 
-                        <div class="brand-card">
-                            <img src="assets/imgs/clients/2.svg" alt="">
+            <!-- Rating Box -->
+            <div class="col-lg-3 team-intro">
+                <div class="item bg-light p-40px border-radius-15px o-hidden v-align-between"
+                    data-ui-animate data-delay="0.2">
+
+                    <div class="mb-50px">
+                        <span class="text-uppercase">(Rating)</span>
+                        <h2 class="fs-100 main-color2">4.9/5</h2>
+                    </div>
+
+                    <div class="pt-30px line-top border-color-transparent-dark-light">
+                        <div class="d-flex align-items-center justify-content-between">
+                            <h6 class="fs-18 fw-300">
+                                By <span class="fw-600">200k+</span> clients <br>
+                                world-wide
+                            </h6>
+
+                            <span>
+                                <img src="assets/imgs/trustpilot.svg" alt="" class="w-100px">
+                            </span>
                         </div>
-
-                        <div class="brand-card">
-                            <img src="assets/imgs/clients/1.svg" alt="">
-                        </div>
-
-                        <div class="brand-card">
-                            <img src="assets/imgs/clients/3.svg" alt="">
-                        </div>
-
-                        <div class="brand-card">
-                            <img src="assets/imgs/clients/4.svg" alt="">
-                        </div>
-
-                        <div class="brand-card">
-                            <img src="assets/imgs/clients/2.svg" alt="">
-                        </div>
-
-                        <div class="brand-card">
-                            <img src="assets/imgs/clients/1.svg" alt="">
-                        </div>
-
-                        <div class="brand-card">
-                            <img src="assets/imgs/clients/3.svg" alt="">
-                        </div>
-
-                        <div class="brand-card">
-                            <img src="assets/imgs/clients/4.svg" alt="">
-                        </div>
-
-                        <div class="brand-card">
-                            <img src="assets/imgs/clients/2.svg" alt="">
-                        </div>
-
-                        <div class="brand-card">
-                            <img src="assets/imgs/clients/1.svg" alt="">
-                        </div>
-
-                        <div class="brand-card">
-                            <img src="assets/imgs/clients/3.svg" alt="">
-                        </div>
-
-                        <div class="brand-card">
-                            <img src="assets/imgs/clients/4.svg" alt="">
-                        </div>
-
-                        <div class="brand-card">
-                            <img src="assets/imgs/clients/2.svg" alt="">
-                        </div>
-
-                        <div class="brand-card">
-                            <img src="assets/imgs/clients/1.svg" alt="">
-                        </div>
-
-                        <div class="brand-card">
-                            <img src="assets/imgs/clients/3.svg" alt="">
-                        </div>
-
-                        <div class="brand-card">
-                            <img src="assets/imgs/clients/4.svg" alt="">
-                        </div>
-
-                        <div class="brand-card">
-                            <img src="assets/imgs/clients/2.svg" alt="">
-                        </div>
-
-                        <div class="brand-card">
-                            <img src="assets/imgs/clients/1.svg" alt="">
-                        </div>
-
-                        <div class="brand-card">
-                            <img src="assets/imgs/clients/3.svg" alt="">
-                        </div>
-
-                        <div class="brand-card">
-                            <img src="assets/imgs/clients/4.svg" alt="">
-                        </div>
-
-                        <div class="brand-card">
-                            <img src="assets/imgs/clients/2.svg" alt="">
-                        </div>
-
-                        <div class="brand-card">
-                            <img src="assets/imgs/clients/1.svg" alt="">
-                        </div>
-
-                        <div class="brand-card">
-                            <img src="assets/imgs/clients/3.svg" alt="">
-                        </div>
-
-                        <div class="brand-card">
-                            <img src="assets/imgs/clients/4.svg" alt="">
-                        </div>
-
-                        <div class="brand-card">
-                            <img src="assets/imgs/clients/2.svg" alt="">
-                        </div>
-
-                        <div class="brand-card">
-                            <img src="assets/imgs/clients/1.svg" alt="">
-                        </div>
-
-                        <div class="brand-card">
-                            <img src="assets/imgs/clients/3.svg" alt="">
-                        </div>
-
-                        <div class="brand-card">
-                            <img src="assets/imgs/clients/4.svg" alt="">
-                        </div>
-
                     </div>
 
                 </div>
+            </div>
+        </div>
+</section>
 
-            </section>
 
 
 
-            <?php include 'footer.php'; ?>
+<section class="brand-style1">
+
+    <div class="fixed-card">
+        <span class="pr-10 mr-20px line-right border-color-transparent-white-light">
+            <img src="assets/imgs/global.svg" alt="" class="invert-icon">
+        </span>
+
+        <span>125+ clients <br> worldwide</span>
+    </div>
+
+    <div class="brand-slider">
+
+        <div class="brand-track">
+
+            <!-- First -->
+            <div class="brand-card">
+                <img src="assets/imgs/clients/2.svg" alt="">
+            </div>
+
+            <div class="brand-card">
+                <img src="assets/imgs/clients/1.svg" alt="">
+            </div>
+
+            <div class="brand-card">
+                <img src="assets/imgs/clients/3.svg" alt="">
+            </div>
+
+            <div class="brand-card">
+                <img src="assets/imgs/clients/4.svg" alt="">
+            </div>
+
+            <!-- Duplicate -->
+
+            <div class="brand-card">
+                <img src="assets/imgs/clients/2.svg" alt="">
+            </div>
+
+            <div class="brand-card">
+                <img src="assets/imgs/clients/1.svg" alt="">
+            </div>
+
+            <div class="brand-card">
+                <img src="assets/imgs/clients/3.svg" alt="">
+            </div>
+
+            <div class="brand-card">
+                <img src="assets/imgs/clients/4.svg" alt="">
+            </div>
+
+            <div class="brand-card">
+                <img src="assets/imgs/clients/2.svg" alt="">
+            </div>
+
+            <div class="brand-card">
+                <img src="assets/imgs/clients/1.svg" alt="">
+            </div>
+
+            <div class="brand-card">
+                <img src="assets/imgs/clients/3.svg" alt="">
+            </div>
+
+            <div class="brand-card">
+                <img src="assets/imgs/clients/4.svg" alt="">
+            </div>
+
+            <div class="brand-card">
+                <img src="assets/imgs/clients/2.svg" alt="">
+            </div>
+
+            <div class="brand-card">
+                <img src="assets/imgs/clients/1.svg" alt="">
+            </div>
+
+            <div class="brand-card">
+                <img src="assets/imgs/clients/3.svg" alt="">
+            </div>
+
+            <div class="brand-card">
+                <img src="assets/imgs/clients/4.svg" alt="">
+            </div>
+
+            <div class="brand-card">
+                <img src="assets/imgs/clients/2.svg" alt="">
+            </div>
+
+            <div class="brand-card">
+                <img src="assets/imgs/clients/1.svg" alt="">
+            </div>
+
+            <div class="brand-card">
+                <img src="assets/imgs/clients/3.svg" alt="">
+            </div>
+
+            <div class="brand-card">
+                <img src="assets/imgs/clients/4.svg" alt="">
+            </div>
+
+            <div class="brand-card">
+                <img src="assets/imgs/clients/2.svg" alt="">
+            </div>
+
+            <div class="brand-card">
+                <img src="assets/imgs/clients/1.svg" alt="">
+            </div>
+
+            <div class="brand-card">
+                <img src="assets/imgs/clients/3.svg" alt="">
+            </div>
+
+            <div class="brand-card">
+                <img src="assets/imgs/clients/4.svg" alt="">
+            </div>
+
+            <div class="brand-card">
+                <img src="assets/imgs/clients/2.svg" alt="">
+            </div>
+
+            <div class="brand-card">
+                <img src="assets/imgs/clients/1.svg" alt="">
+            </div>
+
+            <div class="brand-card">
+                <img src="assets/imgs/clients/3.svg" alt="">
+            </div>
+
+            <div class="brand-card">
+                <img src="assets/imgs/clients/4.svg" alt="">
+            </div>
+
+            <div class="brand-card">
+                <img src="assets/imgs/clients/2.svg" alt="">
+            </div>
+
+            <div class="brand-card">
+                <img src="assets/imgs/clients/1.svg" alt="">
+            </div>
+
+            <div class="brand-card">
+                <img src="assets/imgs/clients/3.svg" alt="">
+            </div>
+
+            <div class="brand-card">
+                <img src="assets/imgs/clients/4.svg" alt="">
+            </div>
+
+            <div class="brand-card">
+                <img src="assets/imgs/clients/2.svg" alt="">
+            </div>
+
+            <div class="brand-card">
+                <img src="assets/imgs/clients/1.svg" alt="">
+            </div>
+
+            <div class="brand-card">
+                <img src="assets/imgs/clients/3.svg" alt="">
+            </div>
+
+            <div class="brand-card">
+                <img src="assets/imgs/clients/4.svg" alt="">
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<?php include 'footer.php'; ?>

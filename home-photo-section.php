@@ -24,7 +24,7 @@
 
     <!-- Plugins & Core Styles -->
     <link rel="stylesheet" href="assets/css/plugins.css">
-    <link rel="stylesheet" href="assets/css/style.css?v=1784974585">
+    <link rel="stylesheet" href="assets/css/style.css?v=<?php echo time(); ?>">
 </head>
 
 <body class="main-bg">
@@ -52,7 +52,7 @@
     <!-- ==================== Navbar ==================== -->
     <nav class="navbar navbar-expand-lg">
         <div class="container">
-            <a class="logo" href="#">
+            <a class="logo" href="index.php">
                 <img src="assets/imgs/logo/logo.webp" alt="Mqlus" class="w-160px">
             </a>
 
@@ -88,127 +88,150 @@
         </div>
     </nav>
 
-<!-- ==================== Smooth Scroll Wrapper ==================== -->
-<div id="smooth-wrapper">
-    <div id="smooth-content">
-        <main>
 
-        <aside>
-    
-            <section class="work-overview">
+    <!-- ==================== Smooth Scroll Wrapper ==================== -->
+    <div id="smooth-wrapper">
+        <div id="smooth-content">
+            <main>
 
-                <div class="container">
+                <section class="work-overview">
 
-                    <div class="top-content">
+                    <div class="container">
 
-                        <div class="left">
-                            <h2>
-                                WORK <br>
-                                OVERVIEW
-                            </h2>
-                            <div class="author-card">
-                                <div class="author-left">
-                                    <img src="assets/imgs/serv/bs2.png" alt="">
+                        <!-- ================= Row 1 ================= -->
+                        <div class="row-one">
+
+                            <!-- 70% -->
+                            <div class="work-title">
+                                <h2>WORK <br> OVERVIEW</h2>
+                            </div>
+
+                            <!-- 30% -->
+                            <div class="work-logo">
+                                <img src="assets/imgs/shape1.png" alt="">
+                            </div>
+
+                        </div>
+
+                        <!-- ================= Row 2 ================= -->
+                        <div class="row-two">
+
+                            <!-- 30% -->
+                            <div class="left-info">
+
+                                <div class="client">
+                                    <span class="title">CLIENT</span>
+
                                     <div class="author-details">
                                         <h5>Arora Brothers</h5>
                                         <span>CEO • Arora Pvt. Ltd.</span>
                                     </div>
                                 </div>
 
-                                <div class="author-about">
+                                <div class="services">
+                                    <span class="title">SERVICES</span>
+
                                     <p>
-                                        Passionate about building innovative digital experiences with a
-                                        focus on creativity, quality, and long-term business growth.
+                                        Branding <br>
+                                        UI / UX Design <br>
+                                        Web Development
                                     </p>
                                 </div>
+
                             </div>
 
-                            <br><br><br><br><br>
-                            <div class="middle">
-                                <span>OUR</span>
-                                <span>APPROACH</span>
-                                <div class="line"></div>
+                            <!-- 70% -->
+                            <div class="right-info">
+
+                                <div class="middle">
+                                    <span>OUR</span>
+                                    <span>APPROACH</span>
+                                    <div class="line"></div>
+                                </div>
+
+                                <div class="author-about">
+                                    <span class="title">ABOUT</span>
+
+                                    <p>
+                                        Our journey has been marked by countless successful
+                                        projects that not only achieved but surpassed our
+                                        clients' Our journey has been marked by countless successful
+                                        projectsOur journey has been marked by countless successful
+                                        projectsOur journey has been marked by countless successful
+                                        projectsOur journey has been marked by countless successful
+                                        projects goals.
+                                    </p>
+                                </div>
+
                             </div>
+
                         </div>
 
+                        <div class="stats">
 
-                        <div class="right">
-                            <p>
-                                Our journey has been marked by countless successful
-                                projects that not only achieved but surpassed our clients'
-                                goals, reinforcing their trust in us as a leading
-                                innovator in the digital.
-                            </p>
+                            <div class="stat">
+                                <h3 class="counter" data-target="120">0</h3>
+                                <p>Increase in conversions</p>
+                            </div>
+
+                            <div class="stat">
+                                <h3 class="counter" data-target="80">0</h3>
+                                <p>Average daily signups</p>
+                            </div>
+
+                            <div class="stat">
+                                <h3 class="counter" data-target="140">0</h3>
+                                <p>Increase in website traffic</p>
+                            </div>
+
+                            <div class="stat">
+                                <h3 class="counter" data-target="130">0</h3>
+                                <p>Increase in conversions</p>
+                            </div>
+
                         </div>
 
                     </div>
 
+                </section>
 
-                    <div class="stats">
 
-                        <div class="stat">
-                            <h3 class="counter" data-target="120">0</h3>
-                            <p>Increase in conversions</p>
+
+
+
+                <!-- ==================== Start Section ==================== -->
+
+                <div class="portfolio-elegant">
+                    <div class="container-xxl">
+                        <div class="work-boxs">
+                            <div class="item cursor-pointer">
+                                <div class="w-100">
+                                    <div class="bg-img" data-background="assets/imgs/works/4/1.webp">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item cursor-pointer">
+                                <div class="w-100">
+                                    <div class="bg-img" data-background="assets/imgs/works/4/2.webp">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item cursor-pointer">
+                                <div class="w-100">
+                                    <div class="bg-img" data-background="assets/imgs/works/4/3.webp">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item cursor-pointer">
+                                <div class="w-100">
+                                    <div class="bg-img" data-background="assets/imgs/works/4/4.webp">
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-
-                        <div class="stat">
-                            <h3 class="counter" data-target="80">0</h3>
-                            <p>Average daily signups</p>
-                        </div>
-
-                        <div class="stat">
-                            <h3 class="counter" data-target="140">0</h3>
-                            <p>Increase in website traffic</p>
-                        </div>
-
-                        <div class="stat">
-                            <h3 class="counter" data-target="130">0</h3>
-                            <p>Increase in conversions</p>
-                        </div>
-
                     </div>
-
                 </div>
 
-            </section>
+                <br><br><br><br>
 
-            </aside>
-
-
-
-            <!-- ==================== Start Section ==================== -->
-
-            <div class="portfolio-elegant">
-                <div class="container-xxl">
-                    <div class="work-boxs">
-                        <div class="item cursor-pointer">
-                            <div class="w-100">
-                                <div class="bg-img" data-background="assets/imgs/works/4/1.webp">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item cursor-pointer">
-                            <div class="w-100">
-                                <div class="bg-img" data-background="assets/imgs/works/4/2.webp">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item cursor-pointer">
-                            <div class="w-100">
-                                <div class="bg-img" data-background="assets/imgs/works/4/3.webp">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item cursor-pointer">
-                            <div class="w-100">
-                                <div class="bg-img" data-background="assets/imgs/works/4/4.webp">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <br><br><br><br>
-
-            <?php include 'footer.php'; ?>
+                <?php include 'footer.php'; ?>

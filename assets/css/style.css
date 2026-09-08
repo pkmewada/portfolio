@@ -31,6 +31,20 @@ body {
   overflow-x: hidden !important;
 }
 
+html,
+body {
+  overflow-x: hidden;
+  overflow-y: auto;
+
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none;
+}
+
 body.modern-agency .section-padding {
   padding: 80px 40px;
 }
@@ -218,7 +232,7 @@ Fixed Card
 
 .fixed-card img {
 
-  width: 22px;
+  width: 50px;
 
   filter: brightness(0) invert(1);
 
@@ -325,6 +339,219 @@ Responsive
 
 
 
+/* =========================
+   Tablet
+========================= */
+@media (max-width:991px) {
+
+  .work-overview {
+    margin-top: 40px;
+  }
+
+  .work-overview .container {
+    width: 92%;
+  }
+
+  /* ---------- Row 1 ---------- */
+
+  .row-one {
+    grid-template-columns: 65% 35%;
+    align-items: center;
+    margin-bottom: 60px;
+  }
+
+  .work-title h2 {
+    font-size: 70px;
+    line-height: .9;
+    letter-spacing: -3px;
+  }
+
+  .work-logo {
+    justify-content: flex-end;
+  }
+
+  .work-logo img {
+    width: 120px;
+  }
+
+  /* ---------- Row 2 ---------- */
+
+  .row-two {
+    grid-template-columns: 1fr;
+    row-gap: 50px;
+    margin-bottom: 70px;
+  }
+
+  .left-info {
+    gap: 35px;
+  }
+
+  .author-details h5 {
+    font-size: 28px;
+  }
+
+  .author-details span {
+    font-size: 16px;
+  }
+
+  .services p {
+    font-size: 20px;
+    line-height: 1.7;
+  }
+
+  .middle {
+    margin-bottom: 35px;
+  }
+
+  .middle span {
+    font-size: 15px;
+  }
+
+  .line {
+    width: 90px;
+  }
+
+  .author-about {
+    max-width: 100%;
+  }
+
+  .author-about p {
+    font-size: 18px;
+    line-height: 1.8;
+  }
+
+  /* ---------- Stats ---------- */
+
+  .stats {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin-top: 50px;
+  }
+
+  .stat {
+    gap: 15px;
+    padding: 18px 0;
+  }
+
+  .counter {
+    font-size: 38px;
+    min-width: 90px;
+  }
+
+}
+
+
+/* =========================
+   Mobile
+========================= */
+
+@media (max-width:576px) {
+
+  .work-overview {
+    margin-top: 25px;
+  }
+
+  .work-overview .container {
+    width: 90%;
+  }
+
+  /* Row 1 */
+
+  .row-one {
+    grid-template-columns: 68% 32%;
+    margin-bottom: 45px;
+    align-items: center;
+  }
+
+  .work-title h2 {
+    font-size: 48px;
+    line-height: .95;
+    letter-spacing: -2px;
+  }
+
+  .work-logo img {
+    width: 85px;
+  }
+
+  /* Row 2 */
+
+  .row-two {
+    grid-template-columns: 1fr;
+    row-gap: 40px;
+    margin-bottom: 55px;
+  }
+
+  .left-info {
+    gap: 30px;
+  }
+
+  .title {
+    font-size: 13px;
+    margin-bottom: 15px;
+  }
+
+  .author-details h5 {
+    font-size: 24px;
+    margin-bottom: 8px;
+  }
+
+  .author-details span {
+    font-size: 14px;
+  }
+
+  .services p {
+    font-size: 18px;
+    line-height: 1.7;
+  }
+
+  .middle {
+    gap: 10px;
+    margin-bottom: 25px;
+  }
+
+  .middle span {
+    font-size: 13px;
+  }
+
+  .line {
+    width: 60px;
+  }
+
+  .author-about {
+    max-width: 100%;
+  }
+
+  .author-about p {
+    font-size: 16px;
+    line-height: 1.8;
+  }
+
+  /* Stats */
+
+  .stats {
+    grid-template-columns: 1fr;
+    gap: 0;
+    margin-top: 40px;
+  }
+
+  .stat {
+    gap: 18px;
+    padding: 18px 0;
+  }
+
+  .counter {
+    font-size: 32px;
+    min-width: 70px;
+  }
+
+  .stat p {
+    font-size: 14px;
+  }
+
+}
+
+
+
 
 /*==============================
    WORK OVERVIEW SECTION
@@ -341,59 +568,178 @@ Responsive
   margin: auto;
 }
 
-.top-content {
-  display: grid;
-  grid-template-columns: 58% 42%;
-  align-items: end;
-  column-gap: 40px;
+/* ==============================
+   WORK OVERVIEW
+============================== */
+
+.work-overview {
+  padding: 140px 0 100px;
 }
 
-.left {
+.work-overview .container {
+  max-width: 1280px;
+  width: 92%;
+  margin: auto;
+}
+
+/* ==============================
+   ROW 1
+============================== */
+
+.row-one {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  align-items: start;
+  margin-bottom: 100px;
+}
+
+/* WORK TITLE */
+
+.work-title h2 {
+  margin: 0;
+  font-size: 125px;
+  font-weight: 900;
+  line-height: .82;
+  letter-spacing: -8px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+/* LOGO */
+
+.work-logo {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.work-logo img {
+  width: 190px;
+  display: block;
+}
+
+/* ==============================
+   ROW 2
+============================== */
+
+.row-two {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  column-gap: 70px;
+  align-items: start;
+  margin-bottom: 120px;
+}
+
+/* LEFT INFO */
+
+.left-info {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+
+.title {
+  display: block;
+  margin-bottom: 22px;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #8b8b8b;
+}
+
+/* CLIENT */
+
+.author-details h5 {
+  margin: 0 0 12px;
+  font-size: 38px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.author-details span {
+  font-size: 18px;
+  color: #bdbdbd;
+}
+
+/* SERVICES */
+
+.services p {
+  margin: 0;
+  font-size: 26px;
+  line-height: 1.8;
+  color: #fff;
+}
+
+/* ==============================
+   RIGHT INFO
+============================== */
+
+.right-info {
   display: flex;
   flex-direction: column;
 }
 
-.left h2 {
-  font-size: 120px;
-  line-height: .82;
-  font-weight: 900;
-  letter-spacing: -7px;
-  margin: 0;
-  text-transform: uppercase;
-}
+/* OUR APPROACH */
 
 .middle {
   display: flex;
   align-items: center;
-  gap: 14px;
+  gap: 15px;
+  margin-bottom: 70px;
 }
 
 .middle span {
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 700;
+  letter-spacing: 1px;
   text-transform: uppercase;
-  line-height: 1.15;
-  color: white;
+  color: #fff;
 }
 
 .line {
-  width: 110px;
+  width: 120px;
   height: 1px;
-  background: white;
+  background: #fff;
 }
 
-.right {
-  display: flex;
-  align-items: flex-end;
-  height: 100%;
+/* ABOUT */
+
+.author-about {
+  max-width: 90%;
 }
 
-.right p {
-  max-width: 520px;
+.author-about p {
   margin: 0;
-  font-size: 20px;
+  font-size: 22px;
+  line-height: 1.8;
+  color: #777;
+}
+
+/* ==============================
+   STATS
+============================== */
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  padding-top: 80px;
+  border-top: 1px solid rgba(255, 255, 255, .12);
+}
+
+.stat h3 {
+  margin: 0 0 15px;
+  font-size: 70px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.stat p {
+  margin: 0;
+  font-size: 18px;
   line-height: 1.6;
-  color: #6b6b6b;
+  color: #8f8f8f;
 }
 
 .stats {
@@ -436,37 +782,254 @@ Responsive
   transition: .4s;
 }
 
-@media(max-width:991px) {
 
-  .top-content {
-    grid-template-columns: 1fr;
-    gap: 30px;
+.container-1230 {
+  max-width: 1230px;
+}
+
+/* =========================
+   Tablet
+========================= */
+@media (max-width:991px) {
+
+  .work-overview {
+    margin-top: 40px;
   }
 
-  .left h2 {
-    font-size: 60px;
+  .work-overview .container {
+    width: 92%;
+  }
+
+  /* ---------- Row 1 ---------- */
+
+  .row-one {
+    grid-template-columns: 65% 35%;
+    align-items: center;
+    margin-bottom: 60px;
+  }
+
+  .work-title h2 {
+    font-size: 70px;
+    line-height: .9;
+    letter-spacing: -3px;
+  }
+
+  .work-logo {
+    justify-content: flex-end;
+  }
+
+  .work-logo img {
+    width: 120px;
+  }
+
+  /* ---------- Row 2 ---------- */
+
+  .row-two {
+    grid-template-columns: 1fr;
+    row-gap: 50px;
+    margin-bottom: 70px;
+  }
+
+  .left-info {
+    gap: 35px;
+  }
+
+  .author-details h5 {
+    font-size: 28px;
+  }
+
+  .author-details span {
+    font-size: 16px;
+  }
+
+  .services p {
+    font-size: 20px;
+    line-height: 1.7;
   }
 
   .middle {
-    margin: 0;
+    margin-bottom: 35px;
   }
 
-  .right p {
+  .middle span {
+    font-size: 15px;
+  }
+
+  .line {
+    width: 90px;
+  }
+
+  .author-about {
     max-width: 100%;
   }
 
+  .author-about p {
+    font-size: 18px;
+    line-height: 1.8;
+  }
+
+  /* ---------- Stats ---------- */
+
   .stats {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin-top: 50px;
+  }
+
+  .stat {
+    gap: 15px;
+    padding: 18px 0;
   }
 
   .counter {
-    font-size: 40px;
+    font-size: 38px;
+    min-width: 90px;
   }
 
 }
 
-.container-1230 {
-  max-width: 1230px;
+
+/* =========================
+   Mobile
+========================= */
+
+@media (max-width:576px) {
+
+  .work-overview {
+    margin-top: 25px;
+  }
+
+  .work-overview .container {
+    width: 90%;
+  }
+
+  /* Row 1 */
+
+  .row-one {
+    grid-template-columns: 68% 32%;
+    margin-bottom: 45px;
+    align-items: center;
+  }
+
+  .work-title h2 {
+    font-size: 48px;
+    line-height: .95;
+    letter-spacing: -2px;
+  }
+
+  .work-logo img {
+    width: 85px;
+  }
+
+  /* Row 2 */
+
+  .row-two {
+    grid-template-columns: 1fr;
+    row-gap: 40px;
+    margin-bottom: 55px;
+  }
+
+  .left-info {
+    gap: 30px;
+  }
+
+  .title {
+    font-size: 13px;
+    margin-bottom: 15px;
+  }
+
+  .author-details h5 {
+    font-size: 24px;
+    margin-bottom: 8px;
+  }
+
+  .author-details span {
+    font-size: 14px;
+  }
+
+  .services p {
+    font-size: 18px;
+    line-height: 1.7;
+  }
+
+  .middle {
+    gap: 10px;
+    margin-bottom: 25px;
+  }
+
+  .middle span {
+    font-size: 13px;
+  }
+
+  .line {
+    width: 60px;
+  }
+
+  .author-about {
+    max-width: 100%;
+  }
+
+  .author-about p {
+    font-size: 16px;
+    line-height: 1.8;
+  }
+
+  /* Stats */
+
+  .stats {
+    grid-template-columns: 1fr;
+    gap: 0;
+    margin-top: 40px;
+  }
+
+  .stat {
+    gap: 18px;
+    padding: 18px 0;
+  }
+
+  .counter {
+    font-size: 32px;
+    min-width: 70px;
+  }
+
+  .stat p {
+    font-size: 14px;
+  }
+
+}
+
+@media (max-width:576px) {
+
+  .row-one {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+    margin-bottom: 40px;
+  }
+
+  .work-title {
+    width: 100%;
+  }
+
+  .work-title h2 {
+    font-size: 48px;
+    line-height: .95;
+    letter-spacing: -2px;
+    margin: 0;
+  }
+
+  .work-logo {
+    width: 100%;
+    justify-content: flex-start;
+    /* Left side */
+  }
+
+  .work-logo img {
+    width: 90px;
+    height: auto;
+  }
+
 }
 
 /*==============================
@@ -595,7 +1158,6 @@ Responsive
 .author-details span {
   display: inline-block;
   margin-top: 6px;
-  padding: 6px 14px;
   border-radius: 30px;
   font-size: 14px;
   font-weight: 500;
@@ -603,7 +1165,6 @@ Responsive
 
 .author-about {
   flex: 1;
-  padding-left: 30px;
 }
 
 .author-about p {
@@ -786,16 +1347,15 @@ Responsive
 
 /* Footer Contact Details */
 .contact-info {
-  background: rgba(255, 255, 255, 0.05);
-  padding: 25px 20px;
+
   border-radius: 15px;
-  border: 1px solid rgba(255, 255, 255, 0.12);
+
   backdrop-filter: blur(8px);
   transition: all 0.3s ease;
 }
 
 .contact-info:hover {
-  background: rgba(255, 255, 255, 0.08);
+
   transform: translateY(-5px);
 }
 
@@ -1113,9 +1673,10 @@ Responsive
 .main-colorbg2 {
   background-color: #9F8BE7 !important;
 }
- aside{
+
+aside {
   padding-top: 50px;
- }
+}
 
 section {
   padding-top: 50px;
@@ -9174,6 +9735,7 @@ body.light .theme-icon .moon {
 -----------------------------------------------------------------*/
 .sec-head.bord {
   padding-top: 30px;
+  border-top: none !important;
 }
 
 .sec-head h6 {
@@ -11680,18 +12242,18 @@ footer .subscribe p a {
   position: relative;
   width: 500px;
   height: 100%;
-  border-radius: 50px;
+  border-radius: 10px;
   overflow: hidden;
 }
 
 .parallax-slider-wrapper .parallax-item:hover .parallax-content {
   bottom: 0;
-  opacity: 1;
+  opacity: 0;
   visibility: visible;
 }
 
 .parallax-slider-wrapper .parallax-item:hover .parallax-img::after {
-  opacity: 1;
+  opacity: 0;
   height: 100%;
   visibility: visible;
 }
@@ -11728,12 +12290,33 @@ footer .subscribe p a {
   position: absolute;
   top: 0;
   left: 0;
+  width: 500px;
   height: 100%;
-  width: 800px;
-  background-size: cover;
-  background-position: center;
-  margin-left: -100px;
+  overflow: hidden;
 }
+
+.parallax-slider-wrapper .parallax-img img {
+  position: absolute;
+  top: 0;
+  left: 50%;
+
+  min-width: 100%;
+  min-height: 100%;
+
+  width: auto;
+  height: auto;
+
+  transform: translateX(-50%) translateY(0);
+
+  transition: transform 8s cubic-bezier(.22, .61, .36, 1);
+
+  will-change: transform;
+}
+
+.parallax-slider-wrapper .parallax-item:hover .parallax-img img {
+  transform: translateY(-70%);
+}
+
 
 .parallax-slider-wrapper .parallax-img::after {
   position: absolute;

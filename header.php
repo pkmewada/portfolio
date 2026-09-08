@@ -24,7 +24,7 @@
 
     <!-- Plugins & Core Styles -->
     <link rel="stylesheet" href="assets/css/plugins.css">
-    <link rel="stylesheet" href="assets/css/style.css?v=1784974585">
+    <link rel="stylesheet" href="assets/css/style.css?v=<?php echo time(); ?>">
 </head>
 
 <body class="main-bg">
@@ -52,7 +52,7 @@
     <!-- ==================== Navbar ==================== -->
     <nav class="navbar navbar-expand-lg">
         <div class="container">
-            <a class="logo" href="#">
+            <a class="logo" href="index.php">
                 <img src="assets/imgs/logo/logo.webp" alt="Mqlus" class="w-160px">
             </a>
 

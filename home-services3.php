@@ -30,7 +30,7 @@
     <link rel="stylesheet" href="assets/css/plugins.css">
 
     <!-- Core Style Css -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css?v=<?php echo time(); ?>">
 
 </head>
 
@@ -130,21 +130,7 @@
                                 </div>
                                 <div class="col-lg-3 d-flex justify-content-end">
                                     <div>
-                                        <a href="page-team.html" class="butn-more d-flex align-items-center">
-                                            <span class="text-uppercase fs-14 fw-500">Join to us</span>
-                                            <span class="arrow-icon">
-                                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path
-                                                        d="M7 11.5H17.0635M17.0635 11.5L12.5635 7M17.0635 11.5L12.5635 16">
-                                                    </path>
-                                                </svg>
-                                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path
-                                                        d="M7 11.5H17.0635M17.0635 11.5L12.5635 7M17.0635 11.5L12.5635 16">
-                                                    </path>
-                                                </svg>
-                                            </span>
-                                        </a>
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -154,16 +140,10 @@
                                 <div class="item p-25px border-radius-15px mt-50px">
                                     <div class="fit-img position-relative h-450px o-hidden border-radius-10px mb-20px">
                                         <img src="assets/imgs/team/1.png" alt="">
-                                        <div class="social-icon-circle">
-                                            <a href="#"> <i class="fab fa-x-twitter"></i> </a>
-                                            <a href="#"> <i class="fab fa-facebook-f"></i> </a>
-                                            <a href="#"> <i class="fab fa-instagram"></i> </a>
-                                            <a href="#"> <i class="fab fa-linkedin-in"></i> </a>
-                                        </div>
+                                        
                                     </div>
                                     <div class="info d-flex justify-content-between">
-                                        <h6>Ehor Vashchuk</h6>
-                                        <span class="opacity-5 fs-14">Webflow Designer</span>
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -171,16 +151,10 @@
                                 <div class="item p-25px border-radius-15px mt-50px">
                                     <div class="fit-img position-relative h-450px o-hidden border-radius-10px mb-20px">
                                         <img src="assets/imgs/team/2.png" alt="">
-                                        <div class="social-icon-circle">
-                                            <a href="#"> <i class="fab fa-x-twitter"></i> </a>
-                                            <a href="#"> <i class="fab fa-facebook-f"></i> </a>
-                                            <a href="#"> <i class="fab fa-instagram"></i> </a>
-                                            <a href="#"> <i class="fab fa-linkedin-in"></i> </a>
-                                        </div>
+                                        
                                     </div>
                                     <div class="info d-flex justify-content-between">
-                                        <h6>Ehor Vashchuk</h6>
-                                        <span class="opacity-5 fs-14">Webflow Designer</span>
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -188,16 +162,10 @@
                                 <div class="item p-25px border-radius-15px mt-50px">
                                     <div class="fit-img position-relative h-450px o-hidden border-radius-10px mb-20px">
                                         <img src="assets/imgs/team/2.png" alt="">
-                                        <div class="social-icon-circle">
-                                            <a href="#"> <i class="fab fa-x-twitter"></i> </a>
-                                            <a href="#"> <i class="fab fa-facebook-f"></i> </a>
-                                            <a href="#"> <i class="fab fa-instagram"></i> </a>
-                                            <a href="#"> <i class="fab fa-linkedin-in"></i> </a>
-                                        </div>
+                                        
                                     </div>
                                     <div class="info d-flex justify-content-between">
-                                        <h6>Ehor Vashchuk</h6>
-                                        <span class="opacity-5 fs-14">Webflow Designer</span>
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -206,16 +174,10 @@
                                 <div class="item p-25px border-radius-15px mt-50px">
                                     <div class="fit-img position-relative h-450px o-hidden border-radius-10px mb-20px">
                                         <img src="assets/imgs/team/2.png" alt="">
-                                        <div class="social-icon-circle">
-                                            <a href="#"> <i class="fab fa-x-twitter"></i> </a>
-                                            <a href="#"> <i class="fab fa-facebook-f"></i> </a>
-                                            <a href="#"> <i class="fab fa-instagram"></i> </a>
-                                            <a href="#"> <i class="fab fa-linkedin-in"></i> </a>
-                                        </div>
+                                        
                                     </div>
                                     <div class="info d-flex justify-content-between">
-                                        <h6>Ehor Vashchuk</h6>
-                                        <span class="opacity-5 fs-14">Webflow Designer</span>
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -224,16 +186,10 @@
                                 <div class="item p-25px border-radius-15px mt-50px">
                                     <div class="fit-img position-relative h-450px o-hidden border-radius-10px mb-20px">
                                         <img src="assets/imgs/team/2.png" alt="">
-                                        <div class="social-icon-circle">
-                                            <a href="#"> <i class="fab fa-x-twitter"></i> </a>
-                                            <a href="#"> <i class="fab fa-facebook-f"></i> </a>
-                                            <a href="#"> <i class="fab fa-instagram"></i> </a>
-                                            <a href="#"> <i class="fab fa-linkedin-in"></i> </a>
-                                        </div>
+                                        
                                     </div>
                                     <div class="info d-flex justify-content-between">
-                                        <h6>Ehor Vashchuk</h6>
-                                        <span class="opacity-5 fs-14">Webflow Designer</span>
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -242,16 +198,10 @@
                                 <div class="item p-25px border-radius-15px mt-50px">
                                     <div class="fit-img position-relative h-450px o-hidden border-radius-10px mb-20px">
                                         <img src="assets/imgs/team/2.png" alt="">
-                                        <div class="social-icon-circle">
-                                            <a href="#"> <i class="fab fa-x-twitter"></i> </a>
-                                            <a href="#"> <i class="fab fa-facebook-f"></i> </a>
-                                            <a href="#"> <i class="fab fa-instagram"></i> </a>
-                                            <a href="#"> <i class="fab fa-linkedin-in"></i> </a>
-                                        </div>
+                                        
                                     </div>
                                     <div class="info d-flex justify-content-between">
-                                        <h6>Ehor Vashchuk</h6>
-                                        <span class="opacity-5 fs-14">Webflow Designer</span>
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -259,16 +209,10 @@
                                 <div class="item p-25px border-radius-15px mt-50px">
                                     <div class="fit-img position-relative h-450px o-hidden border-radius-10px mb-20px">
                                         <img src="assets/imgs/team/2.png" alt="">
-                                        <div class="social-icon-circle">
-                                            <a href="#"> <i class="fab fa-x-twitter"></i> </a>
-                                            <a href="#"> <i class="fab fa-facebook-f"></i> </a>
-                                            <a href="#"> <i class="fab fa-instagram"></i> </a>
-                                            <a href="#"> <i class="fab fa-linkedin-in"></i> </a>
-                                        </div>
+                                        
                                     </div>
                                     <div class="info d-flex justify-content-between">
-                                        <h6>Ehor Vashchuk</h6>
-                                        <span class="opacity-5 fs-14">Webflow Designer</span>
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -276,16 +220,10 @@
                                 <div class="item p-25px border-radius-15px mt-50px">
                                     <div class="fit-img position-relative h-450px o-hidden border-radius-10px mb-20px">
                                         <img src="assets/imgs/team/3.png" alt="">
-                                        <div class="social-icon-circle">
-                                            <a href="#"> <i class="fab fa-x-twitter"></i> </a>
-                                            <a href="#"> <i class="fab fa-facebook-f"></i> </a>
-                                            <a href="#"> <i class="fab fa-instagram"></i> </a>
-                                            <a href="#"> <i class="fab fa-linkedin-in"></i> </a>
-                                        </div>
+                                        
                                     </div>
                                     <div class="info d-flex justify-content-between">
-                                        <h6>Ehor Vashchuk</h6>
-                                        <span class="opacity-5 fs-14">Webflow Designer</span>
+                                        
                                     </div>
                                 </div>
                             </div>
