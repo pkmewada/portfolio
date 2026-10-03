@@ -337,7 +337,7 @@ include 'header.php'; ?>
                   "><a href="home-photo-section.php">
                                 <div class="item">
                                     <div class="fit-img h-500px border-radius-30px o-hidden">
-                                        <img src="assets/imgs/works/3/w14.jpg" alt="" class="h-620px" data-speed="0.8"
+                                        <img src="assets/images/8.webp" alt="" class="h-620px" data-speed="0.8"
                                             data-lag="0" style="
                           translate: none;
                           rotate: none;
@@ -371,7 +371,7 @@ include 'header.php'; ?>
                   "><a href="home-photo-section.php">
                                 <div class="item">
                                     <div class="fit-img h-500px border-radius-30px o-hidden">
-                                        <img src="assets/imgs/works/3/w2.jpg" alt="" class="h-620px" data-speed="0.8"
+                                        <img src="assets/images/7.webp" alt="" class="h-620px" data-speed="0.8"
                                             data-lag="0" style="
                           translate: none;
                           rotate: none;
@@ -403,7 +403,7 @@ include 'header.php'; ?>
                             <a href="home-photo-section.php">
                                 <div class="item">
                                     <div class="fit-img h-500px border-radius-30px o-hidden">
-                                        <img src="assets/imgs/works/3/w3.jpg" alt="" class="h-620px" data-speed="0.8"
+                                        <img src="assets/images/6.webp" alt="" class="h-620px" data-speed="0.8"
                                             data-lag="0" style="
                           translate: none;
                           rotate: none;
@@ -434,7 +434,7 @@ include 'header.php'; ?>
                   "><a href="home-photo-section.php">
                                 <div class="item">
                                     <div class="fit-img h-500px border-radius-30px o-hidden">
-                                        <img src="assets/imgs/works/3/w11.jpg" alt="" class="h-620px" data-speed="0.8"
+                                        <img src="assets/images/5.webp" alt="" class="h-620px" data-speed="0.8"
                                             data-lag="0" style="
                           translate: none;
                           rotate: none;
@@ -465,7 +465,7 @@ include 'header.php'; ?>
                   "><a href="home-photo-section.php">
                                 <div class="item mt-80px">
                                     <div class="fit-img h-500px border-radius-30px o-hidden">
-                                        <img src="assets/imgs/works/3/w1.jpg" alt="" class="h-620px" data-speed="0.8"
+                                        <img src="assets/images/4.webp" alt="" class="h-620px" data-speed="0.8"
                                             data-lag="0" style="
                           translate: none;
                           rotate: none;
@@ -486,7 +486,7 @@ include 'header.php'; ?>
                         </div>
 
 
-                        <div class="col-lg-6 items data-ui-animate="" data-delay=" 0.2" style="
+                        <div class="col-lg-6 items" data-ui-animate="" data-delay="0.2" style="
                     position: absolute;
                     left: 0px;
                     top: 1588px;
@@ -503,10 +503,8 @@ include 'header.php'; ?>
                                     <div class="fit-img h-500px border-radius-30px o-hidden">
 
 
-                                        <img src="assets/imgs/works/3/w6.png" alt="" class="h-620px" data-speed="0.8"
-                                            data-lag="0" style="
-                          translate: none;
-                          rotate: none;
+                                        <img src="assets/images/3.webp" alt="" class="h-620px" data-speed="0.8"
+  rotate: none;
                           scale: none;
                           transform: translate(0px, -151.2px);
                           will-change: transform;
@@ -615,7 +613,7 @@ include 'header.php'; ?>
                                         <img src="assets/imgs/serv/bs1.png" alt="">
                                     </div>
                                     <div>
-                                        <h4 class="mb-30px">Video Production & Edits</h4>
+            assets/images/portfolio image (2).webp    <h4 class="mb-30px">Video Production & Edits</h4>
                                         <p>Commercials, brand films, product videos, reels, and social-first content
                                             crafted to engage modern audiences.</p>
                                     </div>
@@ -647,7 +645,7 @@ include 'header.php'; ?>
                                         <img src="assets/imgs/serv/bs2.png" alt="">
                                     </div>
                                     <div>
-                                        <h4 class="mb-30px">Websites & Digital Products</h4>
+            assets/images/portfolio image (3).webp    <h4 class="mb-30px">Websites & Digital Products</h4>
                                         <p>From business websites to custom web platforms, we create digital experiences
                                             that convert and scale.</p>
                                     </div>
@@ -677,7 +675,7 @@ include 'header.php'; ?>
                                     <img src="assets/imgs/serv/bs3.png" alt="">
                                 </div>
                                 <div>
-                                    <h4 class="mb-30px">Performance Marketing</h4>
+                    assets/images/portfolio image (4).webps="mb-30px">Performance Marketing</h4>
                                     <p>Google Ads, Meta Ads, LinkedIn campaigns, and conversion-focused advertising
                                         designed to bring qualified leads and customers.</p>
                                 </div>

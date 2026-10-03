@@ -15046,3 +15046,10 @@ body.light footer .main-color {
 }
 
 /* ====================== [ End Responsive ] ====================== */
+/* Preserve the portfolio layout and parallax while fitting the new artwork. */
+#portfolio .item .fit-img img {
+  width: 100%;
+  max-width: 100%;
+  object-fit: contain;
+  object-position: center;
+}
