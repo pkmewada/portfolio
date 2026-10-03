@@ -295,276 +295,129 @@ include 'header.php'; ?>
 
 
 
-            <!-- ==================== Portfolio ==================== -->
+            
+                <!-- ==================== Start Portfolio ==================== -->
 
-
-
-            <section id="portfolio" class="portfolio-style2">
-                <div class="container">
-                    <div class="row gallery lg-marg" style="position: relative; height: 2249px">
-                        <div class="col-lg-6 items" data-ui-animate="" data-delay="0.2" style="
-                    position: absolute;
-                    left: 0px;
-                    top: 0px;
-                    opacity: 1;
-                    filter: blur(0px);
-                    translate: none;
-                    rotate: none;
-                    scale: none;
-                    transform: translate(0px, 0px);
-                  ">
-                            <div class="sec-head mb-80px">
-                                <span class="butn-bord-sm mb-15px">Our Portfolio</span>
-                                <h2 class="fs-60">
-                                    Take a look <br />
-                                    at our projects
-                                </h2>
+                <section class="portfolio-style2">
+                    <div class="container">
+                        <div class="row gallery lg-marg">
+                            <div class="col-lg-6 items" data-ui-animate data-delay="0.2">
+                                <div class="sec-head mb-80px">
+                                    <span class="butn-bord-sm mb-15px">Our Portfolio</span>
+                                    <h2 class="fs-60">Take a look <br> at our projects</h2>
+                                </div>
                             </div>
-                        </div>
-
-
-
-                        <div class="col-lg-6 items" data-ui-animate="" data-delay="0.2" style="
-                    position: absolute;
-                    left: 728px;
-                    top: 30px;
-                    opacity: 1;
-                    filter: blur(0px);
-                    translate: none;
-                    rotate: none;
-                    scale: none;
-                    transform: translate(0px, 0px);
-                  "><a href="home-photo-section.php">
+                            <div class="col-lg-6 items" data-ui-animate data-delay="0.2">
                                 <div class="item">
                                     <div class="fit-img h-500px border-radius-30px o-hidden">
-                                        <img src="assets/images/8.webp" alt="" class="h-620px" data-speed="0.8"
-                                            data-lag="0" style="
-                          translate: none;
-                          rotate: none;
-                          scale: none;
-                          transform: translate(0px, -48.1994px);
-                          will-change: transform;
-                        " />
+                                        <img src="assets/images/3.webp" alt="" class="h-620px" data-speed="0.8"
+                                            data-lag="0">
                                     </div>
-
-
                                     <div class="cont mt-20px">
-
-                                        <div class="mb-10px opacity-7 fs-14 text-uppercase">
-                                            <span>2024</span><span class="ml-15px mr-10px">.</span><span>Design</span>
-                                        </div>
+                                        <div class="mb-10px opacity-7 fs-14 text-uppercase"><span>2024</span><span
+                                                class="ml-15px mr-10px">.</span><span>Design</span></div>
                                         <h5>Gary Neville's digital presence</h5>
                                     </div>
                                 </div>
-                            </a>
-                        </div>
-                        <div class="col-lg-6 items" data-ui-animate="" data-delay="0.2" style="
-                    position: absolute;
-                    left: 0px;
-                    top: 267px;
-                    opacity: 1;
-                    filter: blur(0px);
-                    translate: none;
-                    rotate: none;
-                    scale: none;
-                    transform: translate(0px, 0px);
-                  "><a href="home-photo-section.php">
-                                <div class="item">
-                                    <div class="fit-img h-500px border-radius-30px o-hidden">
-                                        <img src="assets/images/7.webp" alt="" class="h-620px" data-speed="0.8"
-                                            data-lag="0" style="
-                          translate: none;
-                          rotate: none;
-                          scale: none;
-                          transform: translate(0px, -117.599px);
-                          will-change: transform;
-                        " />
-                                    </div>
-                                    <div class="cont mt-20px">
-                                        <div class="mb-10px opacity-7 fs-14 text-uppercase">
-                                            <span>2024</span><span class="ml-15px mr-10px">.</span><span>Design</span>
-                                        </div>
-                                        <h5>Furniture designed to the extent</h5>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-lg-6 items" data-ui-animate="" data-delay="0.2" style="
-                    position: absolute;
-                    left: 728px;
-                    top: 580px;
-                     opacity: 1;
-                    
-                    translate: none;
-                    rotate: none;
-                    scale: none;
-                    transform: translate(0px, 60px);
-                  ">
-                            <a href="home-photo-section.php">
-                                <div class="item">
-                                    <div class="fit-img h-500px border-radius-30px o-hidden">
-                                        <img src="assets/images/6.webp" alt="" class="h-620px" data-speed="0.8"
-                                            data-lag="0" style="
-                          translate: none;
-                          rotate: none;
-                          scale: none;
-                          transform: translate(0px, -151.2px);
-                          will-change: transform;
-                        " />
-                                    </div>
-                                    <div class="cont mt-20px">
-                                        <div class="mb-10px opacity-7 fs-14 text-uppercase">
-                                            <span>2024</span><span class="ml-15px mr-10px">.</span><span>Design</span>
-                                        </div>
-                                        <h5>Consultancy inspiring environments</h5>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-lg-6 items" data-ui-animate="" data-delay="0.2" style="
-                    position: absolute;
-                    left: 0px;
-                    top: 928px;
-                     opacity: 1;
-                    
-                    translate: none;
-                    rotate: none;
-                    scale: none;
-                    transform: translate(0px, 60px);
-                  "><a href="home-photo-section.php">
-                                <div class="item">
-                                    <div class="fit-img h-500px border-radius-30px o-hidden">
-                                        <img src="assets/images/5.webp" alt="" class="h-620px" data-speed="0.8"
-                                            data-lag="0" style="
-                          translate: none;
-                          rotate: none;
-                          scale: none;
-                          transform: translate(0px, -151.2px);
-                          will-change: transform;
-                        ">
-                                    </div>
-                                    <div class="cont mt-20px">
-                                        <div class="mb-10px opacity-7 fs-14 text-uppercase">
-                                            <span>2024</span><span class="ml-15px mr-10px">.</span><span>Design</span>
-                                        </div>
-                                        <h5>Redefining a leading talent group</h5>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-lg-6 items" data-ui-animate="" data-delay="0.2" style="
-                    position: absolute;
-                    left: 728px;
-                    top: 1240px;
-                     opacity: 1;
-                    
-                    translate: none;
-                    rotate: none;
-                    scale: none;
-                    transform: translate(0px, 60px);
-                  "><a href="home-photo-section.php">
+                            </div>
+                            <div class="col-lg-6 items" data-ui-animate data-delay="0.2">
                                 <div class="item mt-80px">
                                     <div class="fit-img h-500px border-radius-30px o-hidden">
                                         <img src="assets/images/4.webp" alt="" class="h-620px" data-speed="0.8"
-                                            data-lag="0" style="
-                          translate: none;
-                          rotate: none;
-                          scale: none;
-                          transform: translate(0px, -151.2px);
-                          will-change: transform;
-                        " />
-
+                                            data-lag="0">
                                     </div>
                                     <div class="cont mt-20px">
-                                        <div class="mb-10px opacity-7 fs-14 text-uppercase">
-                                            <span>2024</span><span class="ml-15px mr-10px">.</span><span>Design</span>
-                                        </div>
+                                        <div class="mb-10px opacity-7 fs-14 text-uppercase"><span>2024</span><span
+                                                class="ml-15px mr-10px">.</span><span>Design</span></div>
+                                        <h5>Furniture designed to the extent</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 items" data-ui-animate data-delay="0.2">
+                                <div class="item mt-80px">
+                                    <div class="fit-img h-500px border-radius-30px o-hidden">
+                                        <img src="assets/images/5.webp" alt="" class="h-620px" data-speed="0.8"
+                                            data-lag="0">
+                                    </div>
+                                    <div class="cont mt-20px">
+                                        <div class="mb-10px opacity-7 fs-14 text-uppercase"><span>2024</span><span
+                                                class="ml-15px mr-10px">.</span><span>Design</span></div>
+                                        <h5>Consultancy inspiring environments</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 items" data-ui-animate data-delay="0.2">
+                                <div class="item mt-80px">
+                                    <div class="fit-img h-500px border-radius-30px o-hidden">
+                                        <img src="assets/images/6.webp" alt="" class="h-620px" data-speed="0.8"
+                                            data-lag="0">
+                                    </div>
+                                    <div class="cont mt-20px">
+                                        <div class="mb-10px opacity-7 fs-14 text-uppercase"><span>2024</span><span
+                                                class="ml-15px mr-10px">.</span><span>Design</span></div>
+                                        <h5>Redefining a leading talent group</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 items" data-ui-animate data-delay="0.2">
+                                <div class="item mt-80px">
+                                    <div class="fit-img h-500px border-radius-30px o-hidden">
+                                        <img src="assets/images/7.webp" alt="" class="h-620px" data-speed="0.8"
+                                            data-lag="0">
+                                    </div>
+                                    <div class="cont mt-20px">
+                                        <div class="mb-10px opacity-7 fs-14 text-uppercase"><span>2024</span><span
+                                                class="ml-15px mr-10px">.</span><span>Design</span></div>
                                         <h5>The Art of Digital Storytelling</h5>
                                     </div>
                                 </div>
-                            </a>
-                        </div>
-
-
-                        <div class="col-lg-6 items" data-ui-animate="" data-delay="0.2" style="
-                    position: absolute;
-                    left: 0px;
-                    top: 1588px;
-                     opacity: 1;
-                    
-                    translate: none;
-                    rotate: none;
-                    scale: none;
-                    transform: translate(0px, 60px);
-                  ">
-                            <div> <a href="home-photo-section.php" class="item mt-80px d-block">
-                                    <!-- Your content -->
-
+                            </div>
+                            <div class="col-lg-6 items" data-ui-animate data-delay="0.2">
+                                <div class="item mt-80px">
                                     <div class="fit-img h-500px border-radius-30px o-hidden">
-
-
-                                        <img src="assets/images/3.webp" alt="" class="h-620px" data-speed="0.8"
-  rotate: none;
-                          scale: none;
-                          transform: translate(0px, -151.2px);
-                          will-change: transform;
-                        " />
+                                        <img src="assets/images/8.webp" alt="" class="h-620px" data-speed="0.8"
+                                            data-lag="0">
                                     </div>
                                     <div class="cont mt-20px">
-                                        <div class="mb-10px opacity-7 fs-14 text-uppercase">
-                                            <span>2024</span><span class="ml-15px mr-10px">.</span><span>Design</span>
-                                        </div>
+                                        <div class="mb-10px opacity-7 fs-14 text-uppercase"><span>2024</span><span
+                                                class="ml-15px mr-10px">.</span><span>Design</span></div>
                                         <h5>Elevating Visual Narratives</h5>
-
                                     </div>
-
+                                </div>
                             </div>
-
-                            </a>
-                        </div>
-
-
-                        <div class="col-lg-6 items" data-ui-animate="" data-delay="0.2" style="
-                                    position: absolute;
-                                    left: 728px;
-                                    top: 1901px;
-                                    opacity: 1;
-                                    
-                                    translate: none;
-                                    rotate: none;
-                                    scale: none;
-                                    transform: translate(0px, 60px);
-                                ">
-                            <div class="mt-80px">
-                                <a href="portfolio-grid.html" class="circle-button">
-                                    <div class="rotate-circle fs-24 text-uppercase">
-                                        <svg class="textcircle" viewBox="0 0 500 500">
-                                            <defs>
-                                                <path id="textcircle"
-                                                    d="M250,400 a150,150 0 0,1 0,-300a150,150 0 0,1 0,300Z"></path>
-                                            </defs>
-                                            <text>
-                                                <textPath xlink:href="#textcircle" textLength="900">
-                                                    View All Projects - View All Projects -
-                                                </textPath>
-                                            </text>
-                                        </svg>
-                                    </div>
-                                    <div class="icon text-align-center">
-                                        <span class="w-60px"><svg width="100%" viewBox="0 0 16 16" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M12 6.49585L4 6.49585L4 11.4958" stroke="currentColor"
-                                                    stroke-miterlimit="10"></path>
-                                                <path d="M9.33022 8.73901L11.6992 6.37001L9.33022 4.00001"
-                                                    stroke="currentColor" stroke-miterlimit="10"></path>
-                                            </svg></span>
-                                    </div>
-                                </a>
+                            <div class="col-lg-6 items" data-ui-animate data-delay="0.2">
+                                <div class="mt-80px">
+                                    <a href="portfolio-grid.html" class="circle-button">
+                                        <div class="rotate-circle fs-24 text-uppercase">
+                                            <svg class="textcircle" viewBox="0 0 500 500">
+                                                <defs>
+                                                    <path id="textcircle"
+                                                        d="M250,400 a150,150 0 0,1 0,-300a150,150 0 0,1 0,300Z">
+                                                    </path>
+                                                </defs>
+                                                <text>
+                                                    <textPath xlink:href="#textcircle" textLength="900">
+                                                        View All Projects - View All Projects -</textPath>
+                                                </text>
+                                            </svg>
+                                        </div>
+                                        <div class="icon text-align-center">
+                                            <span class="w-60px"><svg width="100%" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M12 6.49585L4 6.49585L4 11.4958" stroke="currentColor"
+                                                        stroke-miterlimit="10"></path>
+                                                    <path d="M9.33022 8.73901L11.6992 6.37001L9.33022 4.00001"
+                                                        stroke="currentColor" stroke-miterlimit="10"></path>
+                                                </svg></span>
+                                        </div>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </section>
+                </section>
+
+                <!-- ==================== End Portfolio ==================== -->
 
 
             <section class="serv-style4 pt-0">
@@ -613,7 +466,7 @@ include 'header.php'; ?>
                                         <img src="assets/images/portfolio image (2).webp" alt="">
                                     </div>
                                     <div>
-            assets/images/portfolio image (2).webp    <h4 class="mb-30px">Video Production & Edits</h4>
+                                        assets/images/portfolio image (2).webp <h4 class="mb-30px">Video Production & Edits</h4>
                                         <p>Commercials, brand films, product videos, reels, and social-first content
                                             crafted to engage modern audiences.</p>
                                     </div>
@@ -645,7 +498,7 @@ include 'header.php'; ?>
                                         <img src="assets/images/portfolio image (3).webp" alt="">
                                     </div>
                                     <div>
-            assets/images/portfolio image (3).webp    <h4 class="mb-30px">Websites & Digital Products</h4>
+                                        assets/images/portfolio image (3).webp <h4 class="mb-30px">Websites & Digital Products</h4>
                                         <p>From business websites to custom web platforms, we create digital experiences
                                             that convert and scale.</p>
                                     </div>
@@ -675,7 +528,7 @@ include 'header.php'; ?>
                                     <img src="assets/images/portfolio image (4).webp" alt="">
                                 </div>
                                 <div>
-                    assets/images/portfolio image (4).webps="mb-30px">Performance Marketing</h4>
+                                    assets/images/portfolio image (4).webps="mb-30px">Performance Marketing</h4>
                                     <p>Google Ads, Meta Ads, LinkedIn campaigns, and conversion-focused advertising
                                         designed to bring qualified leads and customers.</p>
                                 </div>
