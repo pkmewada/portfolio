@@ -610,7 +610,7 @@ include 'header.php'; ?>
                             <div class="item v-align-between">
                                 <a href="home-services3.php">
                                     <div class="img">
-                                        <img src="assets/imgs/serv/bs1.png" alt="">
+                                        <img src="assets/images/portfolio image (2).webp" alt="">
                                     </div>
                                     <div>
             assets/images/portfolio image (2).webp    <h4 class="mb-30px">Video Production & Edits</h4>
@@ -642,7 +642,7 @@ include 'header.php'; ?>
                             <div class="item v-align-between bg-light">
                                 <a href="home-services1.php" class="butn-more d-flex align-items-center">
                                     <div class="img">
-                                        <img src="assets/imgs/serv/bs2.png" alt="">
+                                        <img src="assets/images/portfolio image (3).webp" alt="">
                                     </div>
                                     <div>
             assets/images/portfolio image (3).webp    <h4 class="mb-30px">Websites & Digital Products</h4>
@@ -672,7 +672,7 @@ include 'header.php'; ?>
                         <div class="item v-align-between">
                             <a href="home-services2.php" class="butn-more d-flex align-items-center">
                                 <div class="img">
-                                    <img src="assets/imgs/serv/bs3.png" alt="">
+                                    <img src="assets/images/portfolio image (4).webp" alt="">
                                 </div>
                                 <div>
                     assets/images/portfolio image (4).webps="mb-30px">Performance Marketing</h4>
