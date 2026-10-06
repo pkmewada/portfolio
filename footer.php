@@ -22,8 +22,8 @@
                     <div>
                         <div class="d-flex align-items-end justify-content-between">
                             <div>
-                                <div class="f-logo w-150px mb-30px">
-                                    <img src="assets/imgs/logo/logo.webp" alt="" />
+                                <div class="f-logo footer-wordmark mb-30px" role="img" aria-label="MQLUS">
+                                    <span aria-hidden="true">M</span><span aria-hidden="true">Q</span><span aria-hidden="true">L</span><span aria-hidden="true">U</span><span aria-hidden="true">S</span>
                                 </div>
                                 <p class="fs-14 text-uppercase fw-200">
                                     We hope to empower user and simplify

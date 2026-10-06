@@ -113,11 +113,11 @@ body .blur-div {
 }
 
 .main-color {
-  color: #DDF160 !important;
+  color: #00d8e4 !important;
 }
 
 .main-colorbg {
-  background-color: #DDF160 !important;
+  background-color: #00d8e4 !important;
 }
 
 .main-color2 {
@@ -7788,7 +7788,7 @@ body.loaded {
   transition: all 0.4s;
 }
 .hamenu .menu-links .main-menu .sub-menu li a:hover {
-  color: #DDF160;
+  color: #00d8e4;
 }
 .hamenu .menu-links .main-menu .sub-menu2 {
   display: none;
@@ -8144,7 +8144,7 @@ body.light .theme-icon .moon {
   content: "";
   position: absolute;
   top: -30px;
-  left: -30px;
+  left: -80px;
   width: 75%;
   height: 75%;
   background-image: url(../imgs/intro/a.webp);
@@ -8618,7 +8618,7 @@ body.light .theme-icon .moon {
 }
 .main-post .info-area .tags a:hover,
 .main-post .info-area .share-icon a:hover {
-  background: #DDF160 !important;
+  background: #00d8e4 !important;
   color: #171717;
 }
 .main-post .info-area .share-icon a {
@@ -8690,7 +8690,7 @@ body.light .theme-icon .moon {
   transition: all 0.4s;
 }
 .comments-post .item-box .replay-butn a:hover {
-  background: #DDF160;
+  background: #00d8e4;
   color: #1d1d1d;
 }
 
@@ -8795,7 +8795,7 @@ body.light .theme-icon .moon {
   transition: all 0.4s;
 }
 .contact button:hover {
-  background: #DDF160;
+  background: #00d8e4;
 }
 .contact .info-box {
   padding: 80px 40px;
@@ -8918,7 +8918,7 @@ body.light .theme-icon .moon {
   transition: all 0.4s;
 }
 .price-style1 .butn.active {
-  background: #DDF160;
+  background: #00d8e4;
 }
 .price-style1 .butn:hover {
   background: transparent;
@@ -9205,7 +9205,7 @@ footer .subscribe p a {
   color: #fff;
 }
 .hero-style2 .serv .content .item span.bred {
-  background: #DDF160;
+  background: #00d8e4;
   color: #1f1f1f;
 }
 .hero-style2 .serv .content .item img {
@@ -9732,7 +9732,7 @@ footer .subscribe p a {
   transition: all 0.4s;
 }
 .portfolio-style1 .item .img .tags a:hover {
-  background: #DDF160;
+  background: #00d8e4;
   color: #1f1f1f;
 }
 .portfolio-style1 .item .img:after {
@@ -10503,7 +10503,7 @@ footer .subscribe p a {
   height: 100%;
 }
 .serv-style4 .item:hover {
-  background: #DDF160 !important;
+  background: #00d8e4 !important;
   color: #1f1f1f;
 }
 .serv-style4 .item:hover .img {
@@ -10958,7 +10958,7 @@ body.light .bg-light .butn-more .arrow-icon {
   background: #ccc;
 }
 body.light .bg-light.main-colorbg {
-  background: #DDF160 !important;
+  background: #00d8e4 !important;
   color: #161616 !important;
 }
 body.light .bg-light.main-colorbg p {
@@ -12251,7 +12251,7 @@ body.light footer .main-color {
   transition: all 0.4s;
 }
 .demos .item:hover {
-  border-color: #DDF160;
+  border-color: #00d8e4;
 }
 .demos .item:hover .img .links {
   opacity: 1;
@@ -12268,7 +12268,7 @@ body.light footer .main-color {
 }
 
 .demos .item.hot .tag {
-  background: #DDF160;
+  background: #00d8e4;
   color: #1f1f1f;
 }
 
@@ -12407,7 +12407,7 @@ body.light footer .main-color {
   background: #9F8BE7;
 }
 .serv-bounc .content .item span.bred {
-  background: #DDF160;
+  background: #00d8e4;
   color: #1f1f1f;
 }
 .serv-bounc .content .item img {
