@@ -1393,7 +1393,7 @@ Responsive
 }
 
 .contact-info p:hover i {
-  background: #d4ff3f;
+  background: #00d8e4;
   color: #000;
   transform: rotate(360deg);
 }
@@ -1485,7 +1485,7 @@ Responsive
 }
 
 .subscribe h6 i {
-  color: #d4ff3f;
+  color: #00d8e4;
   font-size: 18px;
 }
 
@@ -1668,11 +1668,11 @@ Responsive
 }
 
 .main-color2 {
-  color: #9F8BE7 !important;
+  color: #00d8e4 !important;
 }
 
 .main-colorbg2 {
-  background-color: #9F8BE7 !important;
+  background-color: #00d8e4 !important;
 }
 
 aside {
@@ -9923,7 +9923,7 @@ body.light .theme-icon .moon {
 }
 
 .about-md .join {
-  background: #9F8BE7;
+  background: #00d8e4;
   color: #fff;
   border-radius: 15px;
   overflow: hidden;
@@ -10119,7 +10119,7 @@ body.light .theme-icon .moon {
 
 .numbers-md {
   padding: 100px 40px 80px;
-  background: #9F8BE7;
+  background: #00d8e4;
   color: #fff;
   margin-top: -40px;
   border-radius: 0 0 15px 15px;
@@ -10475,7 +10475,7 @@ body.light .theme-icon .moon {
 }
 
 .sidebar .widget.tags a:hover {
-  background: #9F8BE7;
+  background: #00d8e4;
 }
 
 .blog-main .item .content {
@@ -11308,7 +11308,7 @@ footer .subscribe p a {
 }
 
 .hero-style2 .serv .content .item span.bdark {
-  background: #9F8BE7;
+  background: #00d8e4;
   color: #fff;
 }
 
@@ -11326,7 +11326,7 @@ footer .subscribe p a {
 }
 
 .hero-style2 .awards {
-  background: #9F8BE7;
+  background: #00d8e4;
   border-radius: 15px;
   overflow: hidden;
   height: 100%;
@@ -13409,11 +13409,11 @@ body.light .bg-light.main-colorbg p {
 }
 
 body.light .bg-light.main-colorbg2 {
-  background: #9F8BE7 !important;
+  background: #00d8e4 !important;
 }
 
 body.light .butn-arrow.main-colorbg {
-  background: #9F8BE7 !important;
+  background: #00d8e4 !important;
 }
 
 body.light .border-color-transparent-white-light {
@@ -13611,7 +13611,7 @@ body.light .interactive-sec .glry-img .tab-img {
 }
 
 body.light .intro-style2 .main-color {
-  color: #9F8BE7 !important;
+  color: #00d8e4 !important;
 }
 
 body.light .intro-style1 {
@@ -13798,7 +13798,7 @@ body.light footer .subscribe p a {
 }
 
 body.light footer .main-color {
-  color: #9F8BE7 !important;
+  color: #00d8e4 !important;
 }
 
 /* ====================== [ End Colors Skin  ] ====================== */

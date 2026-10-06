@@ -302,7 +302,7 @@ include 'header.php'; ?>
 
             <!-- ==================== Start Portfolio ==================== -->
 
-            <section class="portfolio-style2">
+            <section id="portfolio" class="portfolio-style2">
                 <div class="container">
                     <div class="row gallery lg-marg">
                         <div class="col-lg-6 items" data-ui-animate data-delay="0.2">

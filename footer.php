@@ -111,14 +111,20 @@
 <script>
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function(e) {
-            const target = document.querySelector(this.getAttribute('href'));
+            const targetId = this.getAttribute('href').slice(1);
+            if (!targetId) return;
+            const target = document.getElementById(targetId);
             if (!target) return;
             e.preventDefault();
+            const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+            const navbar = document.querySelector('.navbar');
+            const offset = navbar ? navbar.getBoundingClientRect().height + 20 : 20;
             if (typeof ScrollSmoother !== 'undefined' && ScrollSmoother.get()) {
-                ScrollSmoother.get().scrollTo(target, true);
+                ScrollSmoother.get().scrollTo(target, !reducedMotion, 'top ' + offset + 'px');
             } else {
-                target.scrollIntoView({
-                    behavior: 'smooth'
+                window.scrollTo({
+                    top: Math.max(0, target.getBoundingClientRect().top + window.scrollY - offset),
+                    behavior: reducedMotion ? 'instant' : 'smooth'
                 });
             }
         });

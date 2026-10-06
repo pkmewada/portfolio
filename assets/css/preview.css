@@ -121,11 +121,11 @@ body .blur-div {
 }
 
 .main-color2 {
-  color: #9F8BE7 !important;
+  color: #00d8e4 !important;
 }
 
 .main-colorbg2 {
-  background-color: #9F8BE7 !important;
+  background-color: #00d8e4 !important;
 }
 
 section {
@@ -8033,7 +8033,7 @@ body.light .theme-icon .moon {
   display: none;
 }
 .about-md .join {
-  background: #9F8BE7;
+  background: #00d8e4;
   color: #fff;
   border-radius: 15px;
   overflow: hidden;
@@ -8206,7 +8206,7 @@ body.light .theme-icon .moon {
 
 .numbers-md {
   padding: 100px 40px 80px;
-  background: #9F8BE7;
+  background: #00d8e4;
   color: #fff;
   margin-top: -40px;
   border-radius: 0 0 15px 15px;
@@ -8512,7 +8512,7 @@ body.light .theme-icon .moon {
   transition: all 0.4s;
 }
 .sidebar .widget.tags a:hover {
-  background: #9F8BE7;
+  background: #00d8e4;
 }
 
 .blog-main .item .content {
@@ -9201,7 +9201,7 @@ footer .subscribe p a {
   border-radius: 30px;
 }
 .hero-style2 .serv .content .item span.bdark {
-  background: #9F8BE7;
+  background: #00d8e4;
   color: #fff;
 }
 .hero-style2 .serv .content .item span.bred {
@@ -9215,7 +9215,7 @@ footer .subscribe p a {
   width: 70px;
 }
 .hero-style2 .awards {
-  background: #9F8BE7;
+  background: #00d8e4;
   border-radius: 15px;
   overflow: hidden;
   height: 100%;
@@ -10965,10 +10965,10 @@ body.light .bg-light.main-colorbg p {
   color: #585858;
 }
 body.light .bg-light.main-colorbg2 {
-  background: #9F8BE7 !important;
+  background: #00d8e4 !important;
 }
 body.light .butn-arrow.main-colorbg {
-  background: #9F8BE7 !important;
+  background: #00d8e4 !important;
 }
 body.light .border-color-transparent-white-light {
   border-color: rgba(0, 0, 0, 0.1);
@@ -11122,7 +11122,7 @@ body.light .interactive-sec .glry-img .tab-img {
   background: #eaeaea;
 }
 body.light .intro-style2 .main-color {
-  color: #9F8BE7 !important;
+  color: #00d8e4 !important;
 }
 body.light .intro-style1 {
   padding-top: 140px !important;
@@ -11265,7 +11265,7 @@ body.light footer .subscribe p a {
   color: #111012;
 }
 body.light footer .main-color {
-  color: #9F8BE7 !important;
+  color: #00d8e4 !important;
 }
 
 /* ====================== [ End Colors Skin  ] ====================== */
@@ -12273,7 +12273,7 @@ body.light footer .main-color {
 }
 
 .demos .item.pop .tag {
-  background: #9F8BE7;
+  background: #00d8e4;
 }
 
 .demos .item .img {
@@ -12404,7 +12404,7 @@ body.light footer .main-color {
   line-height: 140px;
 }
 .serv-bounc .content .item span.bdark {
-  background: #9F8BE7;
+  background: #00d8e4;
 }
 .serv-bounc .content .item span.bred {
   background: #00d8e4;
