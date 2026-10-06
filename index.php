@@ -294,7 +294,54 @@ include 'header.php'; ?>
             </section>
 
 
+<style>
 
+    /* Portfolio images - full image visible & responsive */
+.portfolio-style2 .fit-img {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    border-radius: 30px;
+}
+
+.portfolio-style2 .fit-img img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: contain !important;
+    object-position: center center !important;
+    display: block;
+}
+
+/* Tablet */
+@media (max-width: 991px) {
+    .portfolio-style2 .fit-img {
+        height: auto;
+        min-height: 400px;
+    }
+
+    .portfolio-style2 .fit-img img {
+        height: auto !important;
+        min-height: 400px;
+        object-fit: contain !important;
+    }
+}
+
+/* Mobile */
+@media (max-width: 575px) {
+    .portfolio-style2 .fit-img {
+        height: auto;
+        min-height: 300px;
+        border-radius: 20px;
+    }
+
+    .portfolio-style2 .fit-img img {
+        width: 100% !important;
+        height: auto !important;
+        min-height: 300px;
+        object-fit: contain !important;
+    }
+}
+</style>
             
                 <!-- ==================== Start Portfolio ==================== -->
 

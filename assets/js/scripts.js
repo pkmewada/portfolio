@@ -1389,12 +1389,26 @@ $(function () {
     }
 });
 
-window.addEventListener("pageshow", function (event) {
-    if (event.persisted) {
-        ScrollTrigger.refresh();
-
-        if (window.ScrollSmoother) {
-            ScrollSmoother.get()?.refresh();
-        }
+// Recalculate pinned cards after images, fonts and restored pages settle.
+(function () {
+    var refreshFrame;
+    function refreshLayout() {
+        cancelAnimationFrame(refreshFrame);
+        refreshFrame = requestAnimationFrame(function () {
+            document.querySelectorAll('.swiper-container').forEach(function (container) {
+                if (container.swiper) container.swiper.update();
+            });
+            if (window.ScrollTrigger) ScrollTrigger.refresh();
+        });
     }
-});
+    $(refreshLayout);
+    window.addEventListener('load', refreshLayout);
+    window.addEventListener('pageshow', refreshLayout);
+    if (document.fonts) document.fonts.ready.then(refreshLayout);
+    document.querySelectorAll('img').forEach(function (img) {
+        if (!img.complete) {
+            img.addEventListener('load', refreshLayout, { once: true });
+            img.addEventListener('error', refreshLayout, { once: true });
+        }
+    });
+})();

@@ -1,3 +1,12 @@
+<?php
+header('Cache-Control: no-cache, must-revalidate');
+function asset_url(string $path): string
+{
+    $file = __DIR__ . '/' . $path;
+    $version = is_file($file) ? filemtime($file) : 0;
+    return htmlspecialchars($path . '?v=' . $version, ENT_QUOTES, 'UTF-8');
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -16,15 +25,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
     <link
-        href="[fonts.googleapis.com](https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap)"
+        href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap"
         rel="stylesheet">
     <link
-        href="[fonts.googleapis.com](https://fonts.googleapis.com/css2?family=Mozilla+Text:wght@200..700&display=swap)"
+        href="https://fonts.googleapis.com/css2?family=Mozilla+Text:wght@200..700&display=swap"
         rel="stylesheet">
 
     <!-- Plugins & Core Styles -->
-    <link rel="stylesheet" href="assets/css/plugins.css">
-    <link rel="stylesheet" href="assets/css/style.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="<?php echo asset_url('assets/css/plugins.css'); ?>">
+    <link rel="stylesheet" href="<?php echo asset_url('assets/css/style.css'); ?>">
 </head>
 
 <body class="main-bg">

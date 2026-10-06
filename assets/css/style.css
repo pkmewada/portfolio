@@ -10051,7 +10051,7 @@ body.light .theme-icon .moon {
   left: -30px;
   width: 75%;
   height: 75%;
-  background-image: url(../imgs/intro/mshap1.png);
+  background-image: url(../imgs/intro/a.webp);
   background-size: contain;
   background-repeat: no-repeat;
   pointer-events: none;
@@ -10071,7 +10071,7 @@ body.light .theme-icon .moon {
   right: 0;
   width: 50%;
   height: 100%;
-  background-image: url(../imgs/intro/p1.png);
+  background-image: url(../imgs/intro/b.webp);
   background-size: cover;
   pointer-events: none;
   z-index: -1;

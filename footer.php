@@ -96,14 +96,14 @@
 </div>
 
 <!-- Scripts -->
-<script src="assets/js/jquery-3.6.0.min.js"></script>
-<script src="assets/js/jquery-migrate-3.4.0.min.js"></script>
-<script src="assets/js/plugins.js"></script>
-<script src="assets/js/gsap.min.js"></script>
-<script src="assets/js/ScrollTrigger.min.js"></script>
-<script src="assets/js/ScrollSmoother.min.js"></script>
-<script src="assets/js/smoother-script.js"></script>
-<script src="assets/js/scripts.js?v=<?php echo time(); ?>"></script>
+<script src="<?php echo asset_url('assets/js/jquery-3.6.0.min.js'); ?>"></script>
+<script src="<?php echo asset_url('assets/js/jquery-migrate-3.4.0.min.js'); ?>"></script>
+<script src="<?php echo asset_url('assets/js/plugins.js'); ?>"></script>
+<script src="<?php echo asset_url('assets/js/gsap.min.js'); ?>"></script>
+<script src="<?php echo asset_url('assets/js/ScrollTrigger.min.js'); ?>"></script>
+<script src="<?php echo asset_url('assets/js/ScrollSmoother.min.js'); ?>"></script>
+<script src="<?php echo asset_url('assets/js/smoother-script.js'); ?>"></script>
+<script src="<?php echo asset_url('assets/js/scripts.js'); ?>"></script>
 
 <!-- Smooth scroll to section anchors -->
 <script>
