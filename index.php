@@ -294,177 +294,134 @@ include 'header.php'; ?>
             </section>
 
 
-<style>
+            <style>
+                .portfolio-style2 .fit-img img {
+                    height: 105% !important;
+                }
+            </style>
 
-    /* Portfolio images - full image visible & responsive */
-.portfolio-style2 .fit-img {
-    width: 100%;
-    height: 500px;
-    overflow: hidden;
-    border-radius: 30px;
-}
+            <!-- ==================== Start Portfolio ==================== -->
 
-.portfolio-style2 .fit-img img {
-    width: 100% !important;
-    height: 100% !important;
-    object-fit: contain !important;
-    object-position: center center !important;
-    display: block;
-}
-
-/* Tablet */
-@media (max-width: 991px) {
-    .portfolio-style2 .fit-img {
-        height: auto;
-        min-height: 400px;
-    }
-
-    .portfolio-style2 .fit-img img {
-        height: auto !important;
-        min-height: 400px;
-        object-fit: contain !important;
-    }
-}
-
-/* Mobile */
-@media (max-width: 575px) {
-    .portfolio-style2 .fit-img {
-        height: auto;
-        min-height: 300px;
-        border-radius: 20px;
-    }
-
-    .portfolio-style2 .fit-img img {
-        width: 100% !important;
-        height: auto !important;
-        min-height: 300px;
-        object-fit: contain !important;
-    }
-}
-</style>
-            
-                <!-- ==================== Start Portfolio ==================== -->
-
-                <section class="portfolio-style2">
-                    <div class="container">
-                        <div class="row gallery lg-marg">
-                            <div class="col-lg-6 items" data-ui-animate data-delay="0.2">
-                                <div class="sec-head mb-80px">
-                                    <span class="butn-bord-sm mb-15px">Our Portfolio</span>
-                                    <h2 class="fs-60">Take a look <br> at our projects</h2>
-                                </div>
+            <section class="portfolio-style2">
+                <div class="container">
+                    <div class="row gallery lg-marg">
+                        <div class="col-lg-6 items" data-ui-animate data-delay="0.2">
+                            <div class="sec-head mb-80px">
+                                <span class="butn-bord-sm mb-15px">Our Portfolio</span>
+                                <h2 class="fs-60">Take a look <br> at our projects</h2>
                             </div>
-                            <div class="col-lg-6 items" data-ui-animate data-delay="0.2">
-                                <div class="item">
-                                    <div class="fit-img h-500px border-radius-30px o-hidden">
-                                        <img src="assets/images/3.webp" alt="" class="h-620px" data-speed="0.8"
-                                            data-lag="0">
-                                    </div>
-                                    <div class="cont mt-20px">
-                                        <div class="mb-10px opacity-7 fs-14 text-uppercase"><span>2024</span><span
-                                                class="ml-15px mr-10px">.</span><span>Design</span></div>
-                                        <h5>Gary Neville's digital presence</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 items" data-ui-animate data-delay="0.2">
-                                <div class="item mt-80px">
-                                    <div class="fit-img h-500px border-radius-30px o-hidden">
-                                        <img src="assets/images/4.webp" alt="" class="h-620px" data-speed="0.8"
-                                            data-lag="0">
-                                    </div>
-                                    <div class="cont mt-20px">
-                                        <div class="mb-10px opacity-7 fs-14 text-uppercase"><span>2024</span><span
-                                                class="ml-15px mr-10px">.</span><span>Design</span></div>
-                                        <h5>Furniture designed to the extent</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 items" data-ui-animate data-delay="0.2">
-                                <div class="item mt-80px">
-                                    <div class="fit-img h-500px border-radius-30px o-hidden">
-                                        <img src="assets/images/5.webp" alt="" class="h-620px" data-speed="0.8"
-                                            data-lag="0">
-                                    </div>
-                                    <div class="cont mt-20px">
-                                        <div class="mb-10px opacity-7 fs-14 text-uppercase"><span>2024</span><span
-                                                class="ml-15px mr-10px">.</span><span>Design</span></div>
-                                        <h5>Consultancy inspiring environments</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 items" data-ui-animate data-delay="0.2">
-                                <div class="item mt-80px">
-                                    <div class="fit-img h-500px border-radius-30px o-hidden">
-                                        <img src="assets/images/6.webp" alt="" class="h-620px" data-speed="0.8"
-                                            data-lag="0">
-                                    </div>
-                                    <div class="cont mt-20px">
-                                        <div class="mb-10px opacity-7 fs-14 text-uppercase"><span>2024</span><span
-                                                class="ml-15px mr-10px">.</span><span>Design</span></div>
-                                        <h5>Redefining a leading talent group</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 items" data-ui-animate data-delay="0.2">
-                                <div class="item mt-80px">
-                                    <div class="fit-img h-500px border-radius-30px o-hidden">
-                                        <img src="assets/images/7.webp" alt="" class="h-620px" data-speed="0.8"
-                                            data-lag="0">
-                                    </div>
-                                    <div class="cont mt-20px">
-                                        <div class="mb-10px opacity-7 fs-14 text-uppercase"><span>2024</span><span
-                                                class="ml-15px mr-10px">.</span><span>Design</span></div>
-                                        <h5>The Art of Digital Storytelling</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 items" data-ui-animate data-delay="0.2">
-                                <div class="item mt-80px">
-                                    <div class="fit-img h-500px border-radius-30px o-hidden">
-                                        <img src="assets/images/8.webp" alt="" class="h-620px" data-speed="0.8"
-                                            data-lag="0">
-                                    </div>
-                                    <div class="cont mt-20px">
-                                        <div class="mb-10px opacity-7 fs-14 text-uppercase"><span>2024</span><span
-                                                class="ml-15px mr-10px">.</span><span>Design</span></div>
-                                        <h5>Elevating Visual Narratives</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 items" data-ui-animate data-delay="0.2">
-                                <div class="mt-80px">
-                                    <a href="portfolio-grid.html" class="circle-button">
-                                        <div class="rotate-circle fs-24 text-uppercase">
-                                            <svg class="textcircle" viewBox="0 0 500 500">
-                                                <defs>
-                                                    <path id="textcircle"
-                                                        d="M250,400 a150,150 0 0,1 0,-300a150,150 0 0,1 0,300Z">
-                                                    </path>
-                                                </defs>
-                                                <text>
-                                                    <textPath xlink:href="#textcircle" textLength="900">
-                                                        View All Projects - View All Projects -</textPath>
-                                                </text>
-                                            </svg>
-                                        </div>
-                                        <div class="icon text-align-center">
-                                            <span class="w-60px"><svg width="100%" viewBox="0 0 16 16" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M12 6.49585L4 6.49585L4 11.4958" stroke="currentColor"
-                                                        stroke-miterlimit="10"></path>
-                                                    <path d="M9.33022 8.73901L11.6992 6.37001L9.33022 4.00001"
-                                                        stroke="currentColor" stroke-miterlimit="10"></path>
-                                                </svg></span>
-                                        </div>
-                                    </a>
+                        </div>
+                        <div class="col-lg-6 items" data-ui-animate data-delay="0.2">
+                            <div class="item">
+                                <a href="work-overview.php" class="fit-img h-500px border-radius-30px o-hidden" style="display: block;">
+                                    <img src="assets/images/3.webp" alt="" class="h-620px" data-speed="0.8"
+                                        data-lag="0">
+                                </a>
+                                <div class="cont mt-20px">
+                                    <div class="mb-10px opacity-7 fs-14 text-uppercase"><span>2024</span><span
+                                            class="ml-15px mr-10px">.</span><span>Design</span></div>
+                                    <h5>Gary Neville's digital presence</h5>
                                 </div>
                             </div>
                         </div>
+                        <div class="col-lg-6 items" data-ui-animate data-delay="0.2">
+                            <div class="item mt-80px">
+                                <a href="work-overview.php" class="fit-img h-500px border-radius-30px o-hidden" style="display: block;">
+                                    <img src="assets/images/4.webp" alt="" class="h-620px" data-speed="0.8"
+                                        data-lag="0">
+                                </a>
+                                <div class="cont mt-20px">
+                                    <div class="mb-10px opacity-7 fs-14 text-uppercase"><span>2024</span><span
+                                            class="ml-15px mr-10px">.</span><span>Design</span></div>
+                                    <h5>Furniture designed to the extent</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 items" data-ui-animate data-delay="0.2">
+                            <div class="item mt-80px">
+                                <a href="work-overview.php" class="fit-img h-500px border-radius-30px o-hidden" style="display: block;">
+                                    <img src="assets/images/5.webp" alt="" class="h-620px" data-speed="0.8"
+                                        data-lag="0">
+                                </a>
+                                <div class="cont mt-20px">
+                                    <div class="mb-10px opacity-7 fs-14 text-uppercase"><span>2024</span><span
+                                            class="ml-15px mr-10px">.</span><span>Design</span></div>
+                                    <h5>Consultancy inspiring environments</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 items" data-ui-animate data-delay="0.2">
+                            <div class="item mt-80px">
+                                <a href="work-overview.php" class="fit-img h-500px border-radius-30px o-hidden" style="display: block;">
+                                    <img src="assets/images/6.webp" alt="" class="h-620px" data-speed="0.8"
+                                        data-lag="0">
+                                </a>
+                                <div class="cont mt-20px">
+                                    <div class="mb-10px opacity-7 fs-14 text-uppercase"><span>2024</span><span
+                                            class="ml-15px mr-10px">.</span><span>Design</span></div>
+                                    <h5>Redefining a leading talent group</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 items" data-ui-animate data-delay="0.2">
+                            <div class="item mt-80px">
+                                <a href="work-overview.php" class="fit-img h-500px border-radius-30px o-hidden" style="display: block;">
+                                    <img src="assets/images/7.webp" alt="" class="h-620px" data-speed="0.8"
+                                        data-lag="0">
+                                </a>
+                                <div class="cont mt-20px">
+                                    <div class="mb-10px opacity-7 fs-14 text-uppercase"><span>2024</span><span
+                                            class="ml-15px mr-10px">.</span><span>Design</span></div>
+                                    <h5>The Art of Digital Storytelling</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 items" data-ui-animate data-delay="0.2">
+                            <div class="item mt-80px">
+                                <a href="work-overview.php" class="fit-img h-500px border-radius-30px o-hidden" style="display: block;">
+                                    <img src="assets/images/8.webp" alt="" class="h-620px" data-speed="0.8"
+                                        data-lag="0">
+                                </a>
+                                <div class="cont mt-20px">
+                                    <div class="mb-10px opacity-7 fs-14 text-uppercase"><span>2024</span><span
+                                            class="ml-15px mr-10px">.</span><span>Design</span></div>
+                                    <h5>Elevating Visual Narratives</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 items" data-ui-animate data-delay="0.2">
+                            <div class="mt-80px">
+                                <a href="portfolio-grid.html" class="circle-button">
+                                    <div class="rotate-circle fs-24 text-uppercase">
+                                        <svg class="textcircle" viewBox="0 0 500 500">
+                                            <defs>
+                                                <path id="textcircle"
+                                                    d="M250,400 a150,150 0 0,1 0,-300a150,150 0 0,1 0,300Z">
+                                                </path>
+                                            </defs>
+                                            <text>
+                                                <textPath xlink:href="#textcircle" textLength="900">
+                                                    View All Projects - View All Projects -</textPath>
+                                            </text>
+                                        </svg>
+                                    </div>
+                                    <div class="icon text-align-center">
+                                        <span class="w-60px"><svg width="100%" viewBox="0 0 16 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M12 6.49585L4 6.49585L4 11.4958" stroke="currentColor"
+                                                    stroke-miterlimit="10"></path>
+                                                <path d="M9.33022 8.73901L11.6992 6.37001L9.33022 4.00001"
+                                                    stroke="currentColor" stroke-miterlimit="10"></path>
+                                            </svg></span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                </section>
+                </div>
+            </section>
 
-                <!-- ==================== End Portfolio ==================== -->
+            <!-- ==================== End Portfolio ==================== -->
 
 
             <section class="serv-style4 pt-0">

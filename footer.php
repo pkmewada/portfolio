@@ -1,3 +1,4 @@
+<?php require_once __DIR__ . '/asset-helpers.php'; ?>
 <!-- ==================== Footer ==================== -->
 <footer class="footer-style1 pb-50px">
     <div class="container">
@@ -103,6 +104,7 @@
 <script src="<?php echo asset_url('assets/js/ScrollTrigger.min.js'); ?>"></script>
 <script src="<?php echo asset_url('assets/js/ScrollSmoother.min.js'); ?>"></script>
 <script src="<?php echo asset_url('assets/js/smoother-script.js'); ?>"></script>
+<script src="<?php echo asset_url('assets/js/springer.min.js'); ?>"></script>
 <script src="<?php echo asset_url('assets/js/scripts.js'); ?>"></script>
 
 <!-- Smooth scroll to section anchors -->
