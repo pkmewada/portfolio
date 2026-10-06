@@ -470,7 +470,7 @@ include 'header.php'; ?>
                                         <img src="assets/images/portfolio image (2).webp" alt="">
                                     </div>
                                     <div>
-                                        assets/images/portfolio image (2).webp <h4 class="mb-30px">Video Production & Edits</h4>
+                                       <h4 class="mb-30px">Video Production & Edits</h4>
                                         <p>Commercials, brand films, product videos, reels, and social-first content
                                             crafted to engage modern audiences.</p>
                                     </div>
@@ -502,7 +502,7 @@ include 'header.php'; ?>
                                         <img src="assets/images/portfolio image (3).webp" alt="">
                                     </div>
                                     <div>
-                                        assets/images/portfolio image (3).webp <h4 class="mb-30px">Websites & Digital Products</h4>
+                                <h4 class="mb-30px">Websites & Digital Products</h4>
                                         <p>From business websites to custom web platforms, we create digital experiences
                                             that convert and scale.</p>
                                     </div>
@@ -532,7 +532,7 @@ include 'header.php'; ?>
                                     <img src="assets/images/portfolio image (4).webp" alt="">
                                 </div>
                                 <div>
-                                    assets/images/portfolio image (4).webps="mb-30px">Performance Marketing</h4>
+                                    <h4 class="mb-30px">Performance Marketing</h4>
                                     <p>Google Ads, Meta Ads, LinkedIn campaigns, and conversion-focused advertising
                                         designed to bring qualified leads and customers.</p>
                                 </div>
